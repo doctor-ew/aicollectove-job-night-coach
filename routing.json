@@ -57,8 +57,8 @@
       "sandbox": "read-only",
       "gears": {
         "1": {
-          "provider": "claude",
-          "model": "haiku"
+          "provider": "local",
+          "model": "qwen3-coder:30b"
         },
         "2": {
           "provider": "claude",
@@ -73,7 +73,7 @@
           "model": "sonnet"
         }
       },
-      "$comment": "Read-only search role. Strongest candidate for a local model once one is pulled — no design judgment required."
+      "$comment": "Read-only search role. Strongest candidate for a local model once one is pulled \u2014 no design judgment required."
     },
     "nightshift-spec-writer": {
       "prompt": "agents/nightshift-spec-writer.md",
@@ -103,12 +103,12 @@
       "sandbox": "workspace-write",
       "gears": {
         "1": {
-          "provider": "claude",
-          "model": "sonnet"
+          "provider": "codex",
+          "model": "gpt-5.4"
         },
         "2": {
-          "provider": "claude",
-          "model": "sonnet"
+          "provider": "codex",
+          "model": "gpt-5.4"
         },
         "3": {
           "provider": "claude",
@@ -126,12 +126,12 @@
       "sandbox": "workspace-write",
       "gears": {
         "1": {
-          "provider": "claude",
-          "model": "sonnet"
+          "provider": "codex",
+          "model": "gpt-5.4"
         },
         "2": {
-          "provider": "claude",
-          "model": "sonnet"
+          "provider": "codex",
+          "model": "gpt-5.4"
         },
         "3": {
           "provider": "claude",
@@ -147,10 +147,22 @@
       "prompt": "agents/nightshift-behavior-reviewer.md",
       "sandbox": "read-only",
       "gears": {
-        "1": {"provider": "claude", "model": "sonnet"},
-        "2": {"provider": "claude", "model": "sonnet"},
-        "3": {"provider": "claude", "model": "opus"},
-        "4": {"provider": "claude", "model": "opus"}
+        "1": {
+          "provider": "claude",
+          "model": "sonnet"
+        },
+        "2": {
+          "provider": "claude",
+          "model": "sonnet"
+        },
+        "3": {
+          "provider": "claude",
+          "model": "opus"
+        },
+        "4": {
+          "provider": "claude",
+          "model": "opus"
+        }
       }
     },
     "nightshift-run-all-tests": {
@@ -174,7 +186,7 @@
           "model": "haiku"
         }
       },
-      "$comment": "Runs commands and parses output. No design role — effort does not need to rise with gear."
+      "$comment": "Runs commands and parses output. No design role \u2014 effort does not need to rise with gear."
     }
   },
   "adversarial": {
