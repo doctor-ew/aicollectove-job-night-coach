@@ -26,7 +26,11 @@ require_removal_confirmation = true
 allow_heuristic_production_target = false
 
 [routing]
-local_model = "qwen3-coder:30b"
+local_model = "Qwen3-Coder-30B-A3B-Instruct-4bit"
 
 [ledger]
 mode = "files"
+
+[behavior_proof]
+development_calls = 40
+final_calls = 32
