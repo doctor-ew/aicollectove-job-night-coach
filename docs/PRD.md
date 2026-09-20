@@ -106,6 +106,6 @@ These questions have been presented to the organizer. Complete this section from
 - User requirements in this conversation, 2026-09-20.
 - Wording reference supplied by the organizer: [Resume Genius, action verbs](https://resumegenius.com/blog/resume-help/action-verbs), inspected 2026-09-20; used for action-verb guidance, not as evidence of candidate experience.
 - Structural reference: https://github.com/doctor-ew/hackhers-2026/tree/handoff/coach-completion-20260909/coach (README and PROMPT inspected).
-- Nightshift workflow: [canonical engineering command](../../commands/nightshift-eng.md).
-- Measurement contract: [Run measurements](../RUN-MEASUREMENTS.md).
-- Optional efficiency adapter contract: [Efficiency adapters](../EFFICIENCY-ADAPTERS.md).
+- Nightshift workflow: [canonical engineering command](/Users/doctorew/shuttlebay/nightshift-community/commands/nightshift-eng.md).
+- Measurement contract: [Run measurements](/Users/doctorew/shuttlebay/nightshift-community/docs/RUN-MEASUREMENTS.md).
+- Optional efficiency adapter contract: [Efficiency adapters](/Users/doctorew/shuttlebay/nightshift-community/docs/EFFICIENCY-ADAPTERS.md).
