@@ -222,5 +222,9 @@
     "reasoning_effort": "none",
     "context_window": 32768,
     "auth_settings_file": "/Users/doctorew/.omlx/settings.json"
-  }
+  },
+  "allowed_providers": [
+    "claude",
+    "codex"
+  ]
 }
