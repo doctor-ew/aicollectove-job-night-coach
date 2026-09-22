@@ -1,0 +1,101 @@
+{
+  "coverage": "Only retained coach execution receipts; interrupted unreported calls, Codex reviews, and authoring conversation are excluded. Not subscription charges.",
+  "runs": [
+    {
+      "run": "claude-isolated",
+      "status": "responses_collected",
+      "turns_recorded": 6,
+      "elapsed_seconds": 165.4,
+      "prompt_sha256": "99199933c37c8b7cb5ae389c846fa31fb85a7ca2d2774f47c51f14e5ea89b685",
+      "usage": {
+        "input_tokens": 12,
+        "cache_creation_input_tokens": 43041,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 16757
+      },
+      "reported_models": [
+        "claude-sonnet-5"
+      ]
+    },
+    {
+      "run": "claude-live",
+      "status": "interrupted",
+      "turns_recorded": 3,
+      "elapsed_seconds": null,
+      "prompt_sha256": "46e5f8429b383a873d1bf852364b0848e5215d5112c22f5dda9c84899ef891fe",
+      "usage": {
+        "input_tokens": 6,
+        "cache_creation_input_tokens": 88651,
+        "cache_read_input_tokens": 45912,
+        "output_tokens": 12719
+      },
+      "reported_models": [
+        "claude-sonnet-5"
+      ]
+    },
+    {
+      "run": "onsite-regression",
+      "status": "responses_collected",
+      "turns_recorded": 1,
+      "elapsed_seconds": 25.24,
+      "prompt_sha256": "8c0e422f985796a7b5b6656b9c4cfbd6e233212c0e6692624bb1e99ed9bc2341",
+      "usage": {
+        "input_tokens": 2,
+        "cache_creation_input_tokens": 6213,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 2249
+      },
+      "reported_models": [
+        "claude-opus-5"
+      ]
+    },
+    {
+      "run": "opus-session",
+      "status": "responses_collected",
+      "turns_recorded": 4,
+      "elapsed_seconds": 105.21,
+      "prompt_sha256": "e3c2f6c08266f0af3a9d5cf710466e2ea46aa274a32e831fd4bb42fc7fe9fa99",
+      "usage": {
+        "input_tokens": 8,
+        "cache_creation_input_tokens": 34358,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 9726
+      },
+      "reported_models": [
+        "claude-opus-5"
+      ]
+    },
+    {
+      "run": "opus-truthfulness",
+      "status": "responses_collected",
+      "turns_recorded": 1,
+      "elapsed_seconds": 41.79,
+      "prompt_sha256": "e3c2f6c08266f0af3a9d5cf710466e2ea46aa274a32e831fd4bb42fc7fe9fa99",
+      "usage": {
+        "input_tokens": 2,
+        "cache_creation_input_tokens": 6034,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 3474
+      },
+      "reported_models": [
+        "claude-opus-5"
+      ]
+    },
+    {
+      "run": "opus-unreadable",
+      "status": "responses_collected",
+      "turns_recorded": 1,
+      "elapsed_seconds": 10.1,
+      "prompt_sha256": "e3c2f6c08266f0af3a9d5cf710466e2ea46aa274a32e831fd4bb42fc7fe9fa99",
+      "usage": {
+        "input_tokens": 2,
+        "cache_creation_input_tokens": 5904,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 644
+      },
+      "reported_models": [
+        "claude-opus-5"
+      ]
+    }
+  ]
+}

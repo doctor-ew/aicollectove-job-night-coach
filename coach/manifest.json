@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "format": "portable Markdown prompt kit",
+  "files": {
+    "PROMPT.md": "b3cbb42b09d74a694305da7f3fe93c3a6011207eed9507ff209b9453fc4ffb42",
+    "START-HERE.md": "8c0e422f985796a7b5b6656b9c4cfbd6e233212c0e6692624bb1e99ed9bc2341",
+    "WORDING-REFERENCE.md": "d1aaa137142a59ffc661789c64ea5f705ab44c57e1c69b33c2917e8df2e46b22",
+    "QUICKSTART.md": "8e7a5718e723b5644a8d10eae99b079821800c4920462a6d12ef61f62d1ad120",
+    "templates/WORKSHEET.md": "d61968bc162ed93f4590f7f93c24b9f63d176ceed3736d0de95287a1de0f7341",
+    "examples/WORKED-SESSION.md": "a74c219491e24c6057463c6dd0ce050c9d9c1c16c8334825338e567ebd8839ba",
+    "evaluation/cases.json": "87d929a936f31aa247d1b928da216a8ccfb4f9d06ca6840472d7b89e6ab54c43"
+  }
+}

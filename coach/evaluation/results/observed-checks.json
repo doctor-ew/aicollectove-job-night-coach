@@ -1,0 +1,22 @@
+{
+  "scope": "observable output invariants only; not citation entailment or complete behavioral proof",
+  "checks": {
+    "preserved: Alex Example | alex@example.invalid": true,
+    "preserved: Operations Assistant, Fictional Freight Co, 2022\u20132025.": true,
+    "preserved: Volunteer, Fictional Pantry, 2021. Tracked deliveries in Google Sheets.": true,
+    "preserved: Education: High school diploma, Fictional School, 2020.": true,
+    "accepted daily correction present": true,
+    "rejected wording absent": true,
+    "contact omitted from handoff": true,
+    "clean draft has no source annotations": true,
+    "five JD IDs retained": true,
+    "session/1 has Works cited": true,
+    "session/2 has Works cited": true,
+    "session/3 has Works cited": true,
+    "session/4 has Works cited": true,
+    "unreadable/1 has Works cited": true,
+    "truthfulness/1 has Works cited": true
+  },
+  "passed": 15,
+  "total": 15
+}

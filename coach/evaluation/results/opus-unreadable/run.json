@@ -1,0 +1,83 @@
+{
+  "label": "Claude Opus isolated CLI subscription",
+  "command": [
+    "claude",
+    "--print",
+    "--output-format",
+    "json",
+    "--model",
+    "opus",
+    "--effort",
+    "medium",
+    "--tools=",
+    "--no-session-persistence",
+    "--setting-sources=",
+    "--disable-slash-commands",
+    "--strict-mcp-config",
+    "--system-prompt",
+    "You are a conversational assistant. Follow the portable coaching instructions in the user message. Do not add software-engineering instructions, persona decorations, hidden comments, or repository conventions."
+  ],
+  "cases_sha256": "87d929a936f31aa247d1b928da216a8ccfb4f9d06ca6840472d7b89e6ab54c43",
+  "prompt_sha256": "e3c2f6c08266f0af3a9d5cf710466e2ea46aa274a32e831fd4bb42fc7fe9fa99",
+  "started_at_epoch": 1790090475.108759,
+  "status": "responses_collected",
+  "judgment": "not_reviewed",
+  "turns": [
+    {
+      "case": "unreadable",
+      "turn": 1,
+      "elapsed_seconds": 10.1,
+      "status": "responded",
+      "usage": {
+        "input_tokens": 2,
+        "cache_creation_input_tokens": 5904,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 644,
+        "output_tokens_details": {
+          "thinking_tokens": 57
+        },
+        "server_tool_use": {
+          "web_search_requests": 0,
+          "web_fetch_requests": 0
+        },
+        "service_tier": "standard",
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 5904,
+          "ephemeral_5m_input_tokens": 0
+        },
+        "inference_geo": "not_available",
+        "iterations": [
+          {
+            "input_tokens": 2,
+            "output_tokens": 644,
+            "cache_read_input_tokens": 0,
+            "cache_creation_input_tokens": 5904,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 5904
+            },
+            "type": "message"
+          }
+        ],
+        "speed": "standard"
+      },
+      "reported_models": {
+        "claude-opus-5": {
+          "inputTokens": 2,
+          "outputTokens": 644,
+          "cacheReadInputTokens": 0,
+          "cacheCreationInputTokens": 5904,
+          "webSearchRequests": 0,
+          "costUSD": 0.07515,
+          "contextWindow": 1000000,
+          "maxOutputTokens": 64000,
+          "thinkingTokens": 57,
+          "canonicalModel": "claude-opus-5",
+          "provider": "firstParty",
+          "costBasis": "list"
+        }
+      }
+    }
+  ],
+  "elapsed_seconds": 10.1
+}
