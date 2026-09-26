@@ -57,4 +57,4 @@ Additional SHA-256 bindings:
 | File | SHA-256 |
 | --- | --- |
 | `evals/unit/test-starter-browser.sh` | `9f2c22c11a58c1a123c325a7cedb0c40034dc268c064408ac8cbab14099543e8` |
-| `docs/1/recovery-plan.json` | `2cf75fdcf43663b6e3b99f6a892505d0f58b187f4c946b13bcd4e3fb38d116f0` |
+| `docs/1/recovery-plan.json` | `daf6276e5c88fa84882225856faa7b1bde26bb4cf968471b666243b2f00bd42d` |

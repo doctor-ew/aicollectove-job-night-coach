@@ -426,7 +426,7 @@
           "id": "ref-4",
           "role": "source",
           "path": "starter/test-browser.mjs",
-          "start_line": 1,
+          "start_line": 121,
           "end_line": 126
         },
         {
@@ -1250,7 +1250,7 @@
           "id": "ref-4",
           "role": "source",
           "path": "starter/test-browser.mjs",
-          "start_line": 1,
+          "start_line": 121,
           "end_line": 126
         },
         {
@@ -2074,7 +2074,7 @@
           "id": "ref-4",
           "role": "source",
           "path": "starter/test-browser.mjs",
-          "start_line": 1,
+          "start_line": 121,
           "end_line": 126
         },
         {
