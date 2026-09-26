@@ -50,13 +50,15 @@ These hashes bind the reviewed workspace content before commit; this document do
 
 The local browser wrapper `evals/unit/test-starter-browser.sh` was independently reviewed and executed successfully with fictional data and an externally supplied Playwright installation. Its result is retained separately under `/private/tmp/nightshift-consumer-recovery-browser-wrapper/report.json`; the committed acceptance report above remains unchanged.
 
-`docs/1/recovery-plan.json` is an unapproved proposal for explicit independent semantic review. It maps 34 decisions across 45 gate calls, including browser observations for clipboard, privacy and accessibility behavior. An independent line-union audit confirms complete changed source, specification, scenario and check-wrapper coverage in each gate. The proposal preserves the retained failed receipt as a finding to assess; it does not turn it into a valid receipt. Runtime contract admission, complete request-size validation, copied-workspace verification and any separate operator authorization remain pending. No provider call or recovery authorization was made.
+`docs/1/recovery-plan.json` is an unapproved proposal for explicit independent semantic review. It maps 31 unique decisions across 41 gate evaluations, with a proposed limit of 31 provider calls and 10 expected cache reuses, including browser observations for clipboard, privacy and accessibility behavior. An independent line-union audit confirms complete changed source, specification, scenario and check-wrapper coverage in each gate. The proposal preserves the retained failed receipt as a finding to assess; it does not turn it into a valid receipt. A tested candidate runtime admitted the earlier independent draft and reran both unit and browser checks successfully in copied source. Its measured 45 input envelopes contained 34 unique packets and 11 potential cache reuses; the largest was 18,462 bytes and unique envelope total was 484,644 bytes. These sizes exclude CLI framing. Actual provider calls and cache reuses were zero; provider usage is unknown because none was invoked. The final tightened proposal requires fresh binding and sizing after commit; candidate runtime publication and separate operator authorization remain pending. No provider call or recovery authorization was made.
 
 Additional SHA-256 bindings:
 
 | File | SHA-256 |
 | --- | --- |
 | `evals/unit/test-starter-browser.sh` | `9f2c22c11a58c1a123c325a7cedb0c40034dc268c064408ac8cbab14099543e8` |
-| `docs/1/recovery-plan.json` | `43d43ccbc4d4e9d1797b4284e8aa09359efef0965540f2233465a00cc668ab67` |
+| `docs/1/recovery-plan.json` | `0e9ba922dd66e1fbf237ff48d992f563d00979363e812805d237520640e69f42` |
 
 The recovery proposal explicitly sets `PLAYWRIGHT_BROWSERS_PATH` to the verified existing local Playwright cache. This lets copied-workspace verification locate its installed Chromium while retaining isolated `HOME`; it does not download a browser or modify the installed runtime. The earlier copied-workspace failure remains retained separately.
+
+AC-7 remains a manual acceptance requirement. The draft no longer asks automated semantic decisions to establish that manual approval from test exits. Its scenario and surrounding documentation remain bound and included as context; deterministic requirement coverage covers AC-1 through AC-6. Final controller manual acceptance remains separate.

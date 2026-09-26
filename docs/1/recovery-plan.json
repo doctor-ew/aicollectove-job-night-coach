@@ -24,7 +24,7 @@
   "limits": {
     "wall_seconds": 600,
     "active_seconds": 600,
-    "provider_calls": 48
+    "provider_calls": 31
   },
   "decisions": [
     {
@@ -210,7 +210,7 @@
           "id": "ref-4",
           "role": "source",
           "path": "starter/test-browser.mjs",
-          "start_line": 85,
+          "start_line": 75,
           "end_line": 126
         },
         {
@@ -310,6 +310,13 @@
           "path": "starter-browser",
           "start_line": 1,
           "end_line": 1
+        },
+        {
+          "id": "privacy-refresh",
+          "role": "source",
+          "path": "starter/test-browser.mjs",
+          "start_line": 90,
+          "end_line": 92
         }
       ],
       "high_risk": true
@@ -358,7 +365,7 @@
           "role": "source",
           "path": "starter/test-browser.mjs",
           "start_line": 66,
-          "end_line": 84
+          "end_line": 89
         },
         {
           "id": "ref-6",
@@ -471,74 +478,27 @@
           "path": "starter-browser",
           "start_line": 1,
           "end_line": 1
-        }
-      ],
-      "high_risk": true
-    },
-    {
-      "id": "requirement_supported-7",
-      "kind": "requirement_supported",
-      "case_ids": [],
-      "ac_ids": [
-        "AC-7"
-      ],
-      "finding_ids": [],
-      "references": [
-        {
-          "id": "ref-1",
-          "role": "requirement",
-          "path": "docs/1/SPEC.md",
-          "start_line": 1,
-          "end_line": 25
         },
         {
-          "id": "ref-2",
+          "id": "context-11",
           "role": "requirement",
           "path": "docs/1/behavior-scenarios.json",
           "start_line": 171,
           "end_line": 201
         },
         {
-          "id": "ref-3",
+          "id": "context-12",
           "role": "requirement",
           "path": "docs/1/behavior-scenarios.json",
           "start_line": 1,
           "end_line": 26
         },
         {
-          "id": "ref-4",
+          "id": "context-13",
           "role": "source",
           "path": "README.md",
           "start_line": 1,
           "end_line": 72
-        },
-        {
-          "id": "ref-5",
-          "role": "assertion",
-          "path": "evals/unit/test-starter.sh",
-          "start_line": 1,
-          "end_line": 5
-        },
-        {
-          "id": "ref-6",
-          "role": "assertion",
-          "path": "evals/unit/test-starter-browser.sh",
-          "start_line": 1,
-          "end_line": 4
-        },
-        {
-          "id": "ref-7",
-          "role": "observation",
-          "path": "starter-unit",
-          "start_line": 1,
-          "end_line": 1
-        },
-        {
-          "id": "ref-8",
-          "role": "observation",
-          "path": "starter-browser",
-          "start_line": 1,
-          "end_line": 1
         }
       ],
       "high_risk": true
@@ -1034,7 +994,7 @@
           "id": "ref-4",
           "role": "source",
           "path": "starter/test-browser.mjs",
-          "start_line": 85,
+          "start_line": 75,
           "end_line": 126
         },
         {
@@ -1134,6 +1094,13 @@
           "path": "starter-browser",
           "start_line": 1,
           "end_line": 1
+        },
+        {
+          "id": "privacy-refresh",
+          "role": "source",
+          "path": "starter/test-browser.mjs",
+          "start_line": 90,
+          "end_line": 92
         }
       ],
       "high_risk": true
@@ -1182,7 +1149,7 @@
           "role": "source",
           "path": "starter/test-browser.mjs",
           "start_line": 66,
-          "end_line": 84
+          "end_line": 89
         },
         {
           "id": "ref-6",
@@ -1295,74 +1262,27 @@
           "path": "starter-browser",
           "start_line": 1,
           "end_line": 1
-        }
-      ],
-      "high_risk": true
-    },
-    {
-      "id": "scope_matches-7",
-      "kind": "scope_matches",
-      "case_ids": [],
-      "ac_ids": [
-        "AC-7"
-      ],
-      "finding_ids": [],
-      "references": [
-        {
-          "id": "ref-1",
-          "role": "requirement",
-          "path": "docs/1/SPEC.md",
-          "start_line": 1,
-          "end_line": 25
         },
         {
-          "id": "ref-2",
+          "id": "context-11",
           "role": "requirement",
           "path": "docs/1/behavior-scenarios.json",
           "start_line": 171,
           "end_line": 201
         },
         {
-          "id": "ref-3",
+          "id": "context-12",
           "role": "requirement",
           "path": "docs/1/behavior-scenarios.json",
           "start_line": 1,
           "end_line": 26
         },
         {
-          "id": "ref-4",
+          "id": "context-13",
           "role": "source",
           "path": "README.md",
           "start_line": 1,
           "end_line": 72
-        },
-        {
-          "id": "ref-5",
-          "role": "assertion",
-          "path": "evals/unit/test-starter.sh",
-          "start_line": 1,
-          "end_line": 5
-        },
-        {
-          "id": "ref-6",
-          "role": "assertion",
-          "path": "evals/unit/test-starter-browser.sh",
-          "start_line": 1,
-          "end_line": 4
-        },
-        {
-          "id": "ref-7",
-          "role": "observation",
-          "path": "starter-unit",
-          "start_line": 1,
-          "end_line": 1
-        },
-        {
-          "id": "ref-8",
-          "role": "observation",
-          "path": "starter-browser",
-          "start_line": 1,
-          "end_line": 1
         }
       ],
       "high_risk": true
@@ -1858,7 +1778,7 @@
           "id": "ref-4",
           "role": "source",
           "path": "starter/test-browser.mjs",
-          "start_line": 85,
+          "start_line": 75,
           "end_line": 126
         },
         {
@@ -1958,6 +1878,13 @@
           "path": "starter-browser",
           "start_line": 1,
           "end_line": 1
+        },
+        {
+          "id": "privacy-refresh",
+          "role": "source",
+          "path": "starter/test-browser.mjs",
+          "start_line": 90,
+          "end_line": 92
         }
       ],
       "high_risk": true
@@ -2006,7 +1933,7 @@
           "role": "source",
           "path": "starter/test-browser.mjs",
           "start_line": 66,
-          "end_line": 84
+          "end_line": 89
         },
         {
           "id": "ref-6",
@@ -2119,74 +2046,27 @@
           "path": "starter-browser",
           "start_line": 1,
           "end_line": 1
-        }
-      ],
-      "high_risk": true
-    },
-    {
-      "id": "oracle_valid-7",
-      "kind": "oracle_valid",
-      "case_ids": [],
-      "ac_ids": [
-        "AC-7"
-      ],
-      "finding_ids": [],
-      "references": [
-        {
-          "id": "ref-1",
-          "role": "requirement",
-          "path": "docs/1/SPEC.md",
-          "start_line": 1,
-          "end_line": 25
         },
         {
-          "id": "ref-2",
+          "id": "context-11",
           "role": "requirement",
           "path": "docs/1/behavior-scenarios.json",
           "start_line": 171,
           "end_line": 201
         },
         {
-          "id": "ref-3",
+          "id": "context-12",
           "role": "requirement",
           "path": "docs/1/behavior-scenarios.json",
           "start_line": 1,
           "end_line": 26
         },
         {
-          "id": "ref-4",
+          "id": "context-13",
           "role": "source",
           "path": "README.md",
           "start_line": 1,
           "end_line": 72
-        },
-        {
-          "id": "ref-5",
-          "role": "assertion",
-          "path": "evals/unit/test-starter.sh",
-          "start_line": 1,
-          "end_line": 5
-        },
-        {
-          "id": "ref-6",
-          "role": "assertion",
-          "path": "evals/unit/test-starter-browser.sh",
-          "start_line": 1,
-          "end_line": 4
-        },
-        {
-          "id": "ref-7",
-          "role": "observation",
-          "path": "starter-unit",
-          "start_line": 1,
-          "end_line": 1
-        },
-        {
-          "id": "ref-8",
-          "role": "observation",
-          "path": "starter-browser",
-          "start_line": 1,
-          "end_line": 1
         }
       ],
       "high_risk": true
@@ -2502,9 +2382,11 @@
     {
       "id": "retained-product-finding",
       "kind": "finding_resolved",
-      "case_ids": [],
+      "case_ids": [
+        "CASE-6"
+      ],
       "ac_ids": [
-        "AC-7"
+        "AC-6"
       ],
       "finding_ids": [
         "14619cbacae0c6a1f2049356ad10e70c0af6b9177da3824913beb731a31fce35"
