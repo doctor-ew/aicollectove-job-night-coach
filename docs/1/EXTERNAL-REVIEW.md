@@ -57,4 +57,6 @@ Additional SHA-256 bindings:
 | File | SHA-256 |
 | --- | --- |
 | `evals/unit/test-starter-browser.sh` | `9f2c22c11a58c1a123c325a7cedb0c40034dc268c064408ac8cbab14099543e8` |
-| `docs/1/recovery-plan.json` | `daf6276e5c88fa84882225856faa7b1bde26bb4cf968471b666243b2f00bd42d` |
+| `docs/1/recovery-plan.json` | `43d43ccbc4d4e9d1797b4284e8aa09359efef0965540f2233465a00cc668ab67` |
+
+The recovery proposal explicitly sets `PLAYWRIGHT_BROWSERS_PATH` to the verified existing local Playwright cache. This lets copied-workspace verification locate its installed Chromium while retaining isolated `HOME`; it does not download a browser or modify the installed runtime. The earlier copied-workspace failure remains retained separately.

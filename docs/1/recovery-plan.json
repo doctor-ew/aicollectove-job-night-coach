@@ -18,7 +18,8 @@
     }
   ],
   "environment": {
-    "PLAYWRIGHT_MODULE": "/Users/drew.schillinger/shuttlebay/doctorews-laboratory/nightshift-community-worktrees/roadmap-stage-diagnostics-73/dashboard/node_modules/playwright/index.mjs"
+    "PLAYWRIGHT_MODULE": "/Users/drew.schillinger/shuttlebay/doctorews-laboratory/nightshift-community-worktrees/roadmap-stage-diagnostics-73/dashboard/node_modules/playwright/index.mjs",
+    "PLAYWRIGHT_BROWSERS_PATH": "/Users/drew.schillinger/Library/Caches/ms-playwright"
   },
   "limits": {
     "wall_seconds": 600,
