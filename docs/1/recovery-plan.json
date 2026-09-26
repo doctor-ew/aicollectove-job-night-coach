@@ -1,0 +1,2572 @@
+{
+  "version": 1,
+  "semantic_mode": "independent",
+  "checks": [
+    {
+      "id": "starter-unit",
+      "argv": [
+        "bash",
+        "evals/unit/test-starter.sh"
+      ]
+    },
+    {
+      "id": "starter-browser",
+      "argv": [
+        "bash",
+        "evals/unit/test-starter-browser.sh"
+      ]
+    }
+  ],
+  "environment": {
+    "PLAYWRIGHT_MODULE": "/Users/drew.schillinger/shuttlebay/doctorews-laboratory/nightshift-community-worktrees/roadmap-stage-diagnostics-73/dashboard/node_modules/playwright/index.mjs"
+  },
+  "limits": {
+    "wall_seconds": 600,
+    "active_seconds": 600,
+    "provider_calls": 48
+  },
+  "decisions": [
+    {
+      "id": "requirement_supported-1",
+      "kind": "requirement_supported",
+      "case_ids": [
+        "CASE-1"
+      ],
+      "ac_ids": [
+        "AC-1"
+      ],
+      "finding_ids": [],
+      "references": [
+        {
+          "id": "ref-1",
+          "role": "requirement",
+          "path": "docs/1/SPEC.md",
+          "start_line": 1,
+          "end_line": 25
+        },
+        {
+          "id": "ref-2",
+          "role": "requirement",
+          "path": "docs/1/behavior-scenarios.json",
+          "start_line": 27,
+          "end_line": 50
+        },
+        {
+          "id": "ref-3",
+          "role": "source",
+          "path": "starter/app.js",
+          "start_line": 1,
+          "end_line": 75
+        },
+        {
+          "id": "ref-4",
+          "role": "source",
+          "path": "starter/test-unit.cjs",
+          "start_line": 1,
+          "end_line": 21
+        },
+        {
+          "id": "ref-5",
+          "role": "assertion",
+          "path": "evals/unit/test-starter.sh",
+          "start_line": 1,
+          "end_line": 5
+        },
+        {
+          "id": "ref-6",
+          "role": "assertion",
+          "path": "evals/unit/test-starter-browser.sh",
+          "start_line": 1,
+          "end_line": 4
+        },
+        {
+          "id": "ref-7",
+          "role": "observation",
+          "path": "starter-unit",
+          "start_line": 1,
+          "end_line": 1
+        },
+        {
+          "id": "ref-8",
+          "role": "observation",
+          "path": "starter-browser",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "high_risk": true
+    },
+    {
+      "id": "requirement_supported-2",
+      "kind": "requirement_supported",
+      "case_ids": [
+        "CASE-2"
+      ],
+      "ac_ids": [
+        "AC-2"
+      ],
+      "finding_ids": [],
+      "references": [
+        {
+          "id": "ref-1",
+          "role": "requirement",
+          "path": "docs/1/SPEC.md",
+          "start_line": 1,
+          "end_line": 25
+        },
+        {
+          "id": "ref-2",
+          "role": "requirement",
+          "path": "docs/1/behavior-scenarios.json",
+          "start_line": 51,
+          "end_line": 74
+        },
+        {
+          "id": "ref-3",
+          "role": "source",
+          "path": "starter/build.py",
+          "start_line": 1,
+          "end_line": 36
+        },
+        {
+          "id": "ref-4",
+          "role": "source",
+          "path": "starter/test-unit.cjs",
+          "start_line": 22,
+          "end_line": 37
+        },
+        {
+          "id": "ref-5",
+          "role": "source",
+          "path": "starter/test-unit.cjs",
+          "start_line": 51,
+          "end_line": 83
+        },
+        {
+          "id": "ref-6",
+          "role": "assertion",
+          "path": "evals/unit/test-starter.sh",
+          "start_line": 1,
+          "end_line": 5
+        },
+        {
+          "id": "ref-7",
+          "role": "assertion",
+          "path": "evals/unit/test-starter-browser.sh",
+          "start_line": 1,
+          "end_line": 4
+        },
+        {
+          "id": "ref-8",
+          "role": "observation",
+          "path": "starter-unit",
+          "start_line": 1,
+          "end_line": 1
+        },
+        {
+          "id": "ref-9",
+          "role": "observation",
+          "path": "starter-browser",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "high_risk": true
+    },
+    {
+      "id": "requirement_supported-3",
+      "kind": "requirement_supported",
+      "case_ids": [
+        "CASE-3"
+      ],
+      "ac_ids": [
+        "AC-3"
+      ],
+      "finding_ids": [],
+      "references": [
+        {
+          "id": "ref-1",
+          "role": "requirement",
+          "path": "docs/1/SPEC.md",
+          "start_line": 1,
+          "end_line": 25
+        },
+        {
+          "id": "ref-2",
+          "role": "requirement",
+          "path": "docs/1/behavior-scenarios.json",
+          "start_line": 75,
+          "end_line": 98
+        },
+        {
+          "id": "ref-3",
+          "role": "source",
+          "path": "starter/app.js",
+          "start_line": 56,
+          "end_line": 104
+        },
+        {
+          "id": "ref-4",
+          "role": "source",
+          "path": "starter/test-browser.mjs",
+          "start_line": 85,
+          "end_line": 126
+        },
+        {
+          "id": "ref-5",
+          "role": "assertion",
+          "path": "evals/unit/test-starter.sh",
+          "start_line": 1,
+          "end_line": 5
+        },
+        {
+          "id": "ref-6",
+          "role": "assertion",
+          "path": "evals/unit/test-starter-browser.sh",
+          "start_line": 1,
+          "end_line": 4
+        },
+        {
+          "id": "ref-7",
+          "role": "observation",
+          "path": "starter-unit",
+          "start_line": 1,
+          "end_line": 1
+        },
+        {
+          "id": "ref-8",
+          "role": "observation",
+          "path": "starter-browser",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "high_risk": true
+    },
+    {
+      "id": "requirement_supported-4",
+      "kind": "requirement_supported",
+      "case_ids": [
+        "CASE-4"
+      ],
+      "ac_ids": [
+        "AC-4"
+      ],
+      "finding_ids": [],
+      "references": [
+        {
+          "id": "ref-1",
+          "role": "requirement",
+          "path": "docs/1/SPEC.md",
+          "start_line": 1,
+          "end_line": 25
+        },
+        {
+          "id": "ref-2",
+          "role": "requirement",
+          "path": "docs/1/behavior-scenarios.json",
+          "start_line": 99,
+          "end_line": 122
+        },
+        {
+          "id": "ref-3",
+          "role": "source",
+          "path": "starter/app.js",
+          "start_line": 23,
+          "end_line": 55
+        },
+        {
+          "id": "ref-4",
+          "role": "source",
+          "path": "starter/test-browser.mjs",
+          "start_line": 1,
+          "end_line": 65
+        },
+        {
+          "id": "ref-5",
+          "role": "assertion",
+          "path": "evals/unit/test-starter.sh",
+          "start_line": 1,
+          "end_line": 5
+        },
+        {
+          "id": "ref-6",
+          "role": "assertion",
+          "path": "evals/unit/test-starter-browser.sh",
+          "start_line": 1,
+          "end_line": 4
+        },
+        {
+          "id": "ref-7",
+          "role": "observation",
+          "path": "starter-unit",
+          "start_line": 1,
+          "end_line": 1
+        },
+        {
+          "id": "ref-8",
+          "role": "observation",
+          "path": "starter-browser",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "high_risk": true
+    },
+    {
+      "id": "requirement_supported-5",
+      "kind": "requirement_supported",
+      "case_ids": [
+        "CASE-5"
+      ],
+      "ac_ids": [
+        "AC-5"
+      ],
+      "finding_ids": [],
+      "references": [
+        {
+          "id": "ref-1",
+          "role": "requirement",
+          "path": "docs/1/SPEC.md",
+          "start_line": 1,
+          "end_line": 25
+        },
+        {
+          "id": "ref-2",
+          "role": "requirement",
+          "path": "docs/1/behavior-scenarios.json",
+          "start_line": 123,
+          "end_line": 146
+        },
+        {
+          "id": "ref-3",
+          "role": "source",
+          "path": "starter/index.html",
+          "start_line": 1,
+          "end_line": 60
+        },
+        {
+          "id": "ref-4",
+          "role": "source",
+          "path": "starter/styles.css",
+          "start_line": 1,
+          "end_line": 33
+        },
+        {
+          "id": "ref-5",
+          "role": "source",
+          "path": "starter/test-browser.mjs",
+          "start_line": 66,
+          "end_line": 84
+        },
+        {
+          "id": "ref-6",
+          "role": "assertion",
+          "path": "evals/unit/test-starter.sh",
+          "start_line": 1,
+          "end_line": 5
+        },
+        {
+          "id": "ref-7",
+          "role": "assertion",
+          "path": "evals/unit/test-starter-browser.sh",
+          "start_line": 1,
+          "end_line": 4
+        },
+        {
+          "id": "ref-8",
+          "role": "observation",
+          "path": "starter-unit",
+          "start_line": 1,
+          "end_line": 1
+        },
+        {
+          "id": "ref-9",
+          "role": "observation",
+          "path": "starter-browser",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "high_risk": true
+    },
+    {
+      "id": "requirement_supported-6",
+      "kind": "requirement_supported",
+      "case_ids": [
+        "CASE-6"
+      ],
+      "ac_ids": [
+        "AC-6"
+      ],
+      "finding_ids": [],
+      "references": [
+        {
+          "id": "ref-1",
+          "role": "requirement",
+          "path": "docs/1/SPEC.md",
+          "start_line": 1,
+          "end_line": 25
+        },
+        {
+          "id": "ref-2",
+          "role": "requirement",
+          "path": "docs/1/behavior-scenarios.json",
+          "start_line": 147,
+          "end_line": 170
+        },
+        {
+          "id": "ref-3",
+          "role": "source",
+          "path": "starter/test-unit.cjs",
+          "start_line": 38,
+          "end_line": 50
+        },
+        {
+          "id": "ref-4",
+          "role": "source",
+          "path": "starter/test-browser.mjs",
+          "start_line": 1,
+          "end_line": 126
+        },
+        {
+          "id": "ref-5",
+          "role": "source",
+          "path": "evals/unit/test-starter.sh",
+          "start_line": 1,
+          "end_line": 5
+        },
+        {
+          "id": "ref-6",
+          "role": "source",
+          "path": "evals/unit/test-starter-browser.sh",
+          "start_line": 1,
+          "end_line": 4
+        },
+        {
+          "id": "ref-7",
+          "role": "assertion",
+          "path": "evals/unit/test-starter.sh",
+          "start_line": 1,
+          "end_line": 5
+        },
+        {
+          "id": "ref-8",
+          "role": "assertion",
+          "path": "evals/unit/test-starter-browser.sh",
+          "start_line": 1,
+          "end_line": 4
+        },
+        {
+          "id": "ref-9",
+          "role": "observation",
+          "path": "starter-unit",
+          "start_line": 1,
+          "end_line": 1
+        },
+        {
+          "id": "ref-10",
+          "role": "observation",
+          "path": "starter-browser",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "high_risk": true
+    },
+    {
+      "id": "requirement_supported-7",
+      "kind": "requirement_supported",
+      "case_ids": [],
+      "ac_ids": [
+        "AC-7"
+      ],
+      "finding_ids": [],
+      "references": [
+        {
+          "id": "ref-1",
+          "role": "requirement",
+          "path": "docs/1/SPEC.md",
+          "start_line": 1,
+          "end_line": 25
+        },
+        {
+          "id": "ref-2",
+          "role": "requirement",
+          "path": "docs/1/behavior-scenarios.json",
+          "start_line": 171,
+          "end_line": 201
+        },
+        {
+          "id": "ref-3",
+          "role": "requirement",
+          "path": "docs/1/behavior-scenarios.json",
+          "start_line": 1,
+          "end_line": 26
+        },
+        {
+          "id": "ref-4",
+          "role": "source",
+          "path": "README.md",
+          "start_line": 1,
+          "end_line": 72
+        },
+        {
+          "id": "ref-5",
+          "role": "assertion",
+          "path": "evals/unit/test-starter.sh",
+          "start_line": 1,
+          "end_line": 5
+        },
+        {
+          "id": "ref-6",
+          "role": "assertion",
+          "path": "evals/unit/test-starter-browser.sh",
+          "start_line": 1,
+          "end_line": 4
+        },
+        {
+          "id": "ref-7",
+          "role": "observation",
+          "path": "starter-unit",
+          "start_line": 1,
+          "end_line": 1
+        },
+        {
+          "id": "ref-8",
+          "role": "observation",
+          "path": "starter-browser",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "high_risk": true
+    },
+    {
+      "id": "requirement_supported-8",
+      "kind": "requirement_supported",
+      "case_ids": [
+        "CASE-2"
+      ],
+      "ac_ids": [
+        "AC-2"
+      ],
+      "finding_ids": [],
+      "references": [
+        {
+          "id": "ref-1",
+          "role": "requirement",
+          "path": "docs/1/SPEC.md",
+          "start_line": 1,
+          "end_line": 25
+        },
+        {
+          "id": "ref-2",
+          "role": "requirement",
+          "path": "docs/1/behavior-scenarios.json",
+          "start_line": 51,
+          "end_line": 74
+        },
+        {
+          "id": "ref-3",
+          "role": "source",
+          "path": "starter/instructions.js",
+          "start_line": 1,
+          "end_line": 24
+        },
+        {
+          "id": "ref-4",
+          "role": "source",
+          "path": "starter/build.py",
+          "start_line": 10,
+          "end_line": 19
+        },
+        {
+          "id": "ref-5",
+          "role": "source",
+          "path": "starter/test-unit.cjs",
+          "start_line": 51,
+          "end_line": 58
+        },
+        {
+          "id": "ref-6",
+          "role": "assertion",
+          "path": "evals/unit/test-starter.sh",
+          "start_line": 1,
+          "end_line": 5
+        },
+        {
+          "id": "ref-7",
+          "role": "assertion",
+          "path": "evals/unit/test-starter-browser.sh",
+          "start_line": 1,
+          "end_line": 4
+        },
+        {
+          "id": "ref-8",
+          "role": "observation",
+          "path": "starter-unit",
+          "start_line": 1,
+          "end_line": 1
+        },
+        {
+          "id": "ref-9",
+          "role": "observation",
+          "path": "starter-browser",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "high_risk": true
+    },
+    {
+      "id": "requirement_supported-9",
+      "kind": "requirement_supported",
+      "case_ids": [
+        "CASE-2"
+      ],
+      "ac_ids": [
+        "AC-2"
+      ],
+      "finding_ids": [],
+      "references": [
+        {
+          "id": "ref-1",
+          "role": "requirement",
+          "path": "docs/1/SPEC.md",
+          "start_line": 1,
+          "end_line": 25
+        },
+        {
+          "id": "ref-2",
+          "role": "requirement",
+          "path": "docs/1/behavior-scenarios.json",
+          "start_line": 51,
+          "end_line": 74
+        },
+        {
+          "id": "ref-3",
+          "role": "source",
+          "path": "starter/instructions.js",
+          "start_line": 25,
+          "end_line": 48
+        },
+        {
+          "id": "ref-4",
+          "role": "source",
+          "path": "starter/build.py",
+          "start_line": 10,
+          "end_line": 19
+        },
+        {
+          "id": "ref-5",
+          "role": "source",
+          "path": "starter/test-unit.cjs",
+          "start_line": 51,
+          "end_line": 58
+        },
+        {
+          "id": "ref-6",
+          "role": "assertion",
+          "path": "evals/unit/test-starter.sh",
+          "start_line": 1,
+          "end_line": 5
+        },
+        {
+          "id": "ref-7",
+          "role": "assertion",
+          "path": "evals/unit/test-starter-browser.sh",
+          "start_line": 1,
+          "end_line": 4
+        },
+        {
+          "id": "ref-8",
+          "role": "observation",
+          "path": "starter-unit",
+          "start_line": 1,
+          "end_line": 1
+        },
+        {
+          "id": "ref-9",
+          "role": "observation",
+          "path": "starter-browser",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "high_risk": true
+    },
+    {
+      "id": "requirement_supported-10",
+      "kind": "requirement_supported",
+      "case_ids": [
+        "CASE-2"
+      ],
+      "ac_ids": [
+        "AC-2"
+      ],
+      "finding_ids": [],
+      "references": [
+        {
+          "id": "ref-1",
+          "role": "requirement",
+          "path": "docs/1/SPEC.md",
+          "start_line": 1,
+          "end_line": 25
+        },
+        {
+          "id": "ref-2",
+          "role": "requirement",
+          "path": "docs/1/behavior-scenarios.json",
+          "start_line": 51,
+          "end_line": 74
+        },
+        {
+          "id": "ref-3",
+          "role": "source",
+          "path": "starter/instructions.js",
+          "start_line": 49,
+          "end_line": 72
+        },
+        {
+          "id": "ref-4",
+          "role": "source",
+          "path": "starter/build.py",
+          "start_line": 10,
+          "end_line": 19
+        },
+        {
+          "id": "ref-5",
+          "role": "source",
+          "path": "starter/test-unit.cjs",
+          "start_line": 51,
+          "end_line": 58
+        },
+        {
+          "id": "ref-6",
+          "role": "assertion",
+          "path": "evals/unit/test-starter.sh",
+          "start_line": 1,
+          "end_line": 5
+        },
+        {
+          "id": "ref-7",
+          "role": "assertion",
+          "path": "evals/unit/test-starter-browser.sh",
+          "start_line": 1,
+          "end_line": 4
+        },
+        {
+          "id": "ref-8",
+          "role": "observation",
+          "path": "starter-unit",
+          "start_line": 1,
+          "end_line": 1
+        },
+        {
+          "id": "ref-9",
+          "role": "observation",
+          "path": "starter-browser",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "high_risk": true
+    },
+    {
+      "id": "requirement_supported-11",
+      "kind": "requirement_supported",
+      "case_ids": [
+        "CASE-2"
+      ],
+      "ac_ids": [
+        "AC-2"
+      ],
+      "finding_ids": [],
+      "references": [
+        {
+          "id": "ref-1",
+          "role": "requirement",
+          "path": "docs/1/SPEC.md",
+          "start_line": 1,
+          "end_line": 25
+        },
+        {
+          "id": "ref-2",
+          "role": "requirement",
+          "path": "docs/1/behavior-scenarios.json",
+          "start_line": 51,
+          "end_line": 74
+        },
+        {
+          "id": "ref-3",
+          "role": "source",
+          "path": "starter/instructions.js",
+          "start_line": 73,
+          "end_line": 94
+        },
+        {
+          "id": "ref-4",
+          "role": "source",
+          "path": "starter/build.py",
+          "start_line": 10,
+          "end_line": 19
+        },
+        {
+          "id": "ref-5",
+          "role": "source",
+          "path": "starter/test-unit.cjs",
+          "start_line": 51,
+          "end_line": 58
+        },
+        {
+          "id": "ref-6",
+          "role": "assertion",
+          "path": "evals/unit/test-starter.sh",
+          "start_line": 1,
+          "end_line": 5
+        },
+        {
+          "id": "ref-7",
+          "role": "assertion",
+          "path": "evals/unit/test-starter-browser.sh",
+          "start_line": 1,
+          "end_line": 4
+        },
+        {
+          "id": "ref-8",
+          "role": "observation",
+          "path": "starter-unit",
+          "start_line": 1,
+          "end_line": 1
+        },
+        {
+          "id": "ref-9",
+          "role": "observation",
+          "path": "starter-browser",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "high_risk": true
+    },
+    {
+      "id": "scope_matches-1",
+      "kind": "scope_matches",
+      "case_ids": [
+        "CASE-1"
+      ],
+      "ac_ids": [
+        "AC-1"
+      ],
+      "finding_ids": [],
+      "references": [
+        {
+          "id": "ref-1",
+          "role": "requirement",
+          "path": "docs/1/SPEC.md",
+          "start_line": 1,
+          "end_line": 25
+        },
+        {
+          "id": "ref-2",
+          "role": "requirement",
+          "path": "docs/1/behavior-scenarios.json",
+          "start_line": 27,
+          "end_line": 50
+        },
+        {
+          "id": "ref-3",
+          "role": "source",
+          "path": "starter/app.js",
+          "start_line": 1,
+          "end_line": 75
+        },
+        {
+          "id": "ref-4",
+          "role": "source",
+          "path": "starter/test-unit.cjs",
+          "start_line": 1,
+          "end_line": 21
+        },
+        {
+          "id": "ref-5",
+          "role": "assertion",
+          "path": "evals/unit/test-starter.sh",
+          "start_line": 1,
+          "end_line": 5
+        },
+        {
+          "id": "ref-6",
+          "role": "assertion",
+          "path": "evals/unit/test-starter-browser.sh",
+          "start_line": 1,
+          "end_line": 4
+        },
+        {
+          "id": "ref-7",
+          "role": "observation",
+          "path": "starter-unit",
+          "start_line": 1,
+          "end_line": 1
+        },
+        {
+          "id": "ref-8",
+          "role": "observation",
+          "path": "starter-browser",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "high_risk": true
+    },
+    {
+      "id": "scope_matches-2",
+      "kind": "scope_matches",
+      "case_ids": [
+        "CASE-2"
+      ],
+      "ac_ids": [
+        "AC-2"
+      ],
+      "finding_ids": [],
+      "references": [
+        {
+          "id": "ref-1",
+          "role": "requirement",
+          "path": "docs/1/SPEC.md",
+          "start_line": 1,
+          "end_line": 25
+        },
+        {
+          "id": "ref-2",
+          "role": "requirement",
+          "path": "docs/1/behavior-scenarios.json",
+          "start_line": 51,
+          "end_line": 74
+        },
+        {
+          "id": "ref-3",
+          "role": "source",
+          "path": "starter/build.py",
+          "start_line": 1,
+          "end_line": 36
+        },
+        {
+          "id": "ref-4",
+          "role": "source",
+          "path": "starter/test-unit.cjs",
+          "start_line": 22,
+          "end_line": 37
+        },
+        {
+          "id": "ref-5",
+          "role": "source",
+          "path": "starter/test-unit.cjs",
+          "start_line": 51,
+          "end_line": 83
+        },
+        {
+          "id": "ref-6",
+          "role": "assertion",
+          "path": "evals/unit/test-starter.sh",
+          "start_line": 1,
+          "end_line": 5
+        },
+        {
+          "id": "ref-7",
+          "role": "assertion",
+          "path": "evals/unit/test-starter-browser.sh",
+          "start_line": 1,
+          "end_line": 4
+        },
+        {
+          "id": "ref-8",
+          "role": "observation",
+          "path": "starter-unit",
+          "start_line": 1,
+          "end_line": 1
+        },
+        {
+          "id": "ref-9",
+          "role": "observation",
+          "path": "starter-browser",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "high_risk": true
+    },
+    {
+      "id": "scope_matches-3",
+      "kind": "scope_matches",
+      "case_ids": [
+        "CASE-3"
+      ],
+      "ac_ids": [
+        "AC-3"
+      ],
+      "finding_ids": [],
+      "references": [
+        {
+          "id": "ref-1",
+          "role": "requirement",
+          "path": "docs/1/SPEC.md",
+          "start_line": 1,
+          "end_line": 25
+        },
+        {
+          "id": "ref-2",
+          "role": "requirement",
+          "path": "docs/1/behavior-scenarios.json",
+          "start_line": 75,
+          "end_line": 98
+        },
+        {
+          "id": "ref-3",
+          "role": "source",
+          "path": "starter/app.js",
+          "start_line": 56,
+          "end_line": 104
+        },
+        {
+          "id": "ref-4",
+          "role": "source",
+          "path": "starter/test-browser.mjs",
+          "start_line": 85,
+          "end_line": 126
+        },
+        {
+          "id": "ref-5",
+          "role": "assertion",
+          "path": "evals/unit/test-starter.sh",
+          "start_line": 1,
+          "end_line": 5
+        },
+        {
+          "id": "ref-6",
+          "role": "assertion",
+          "path": "evals/unit/test-starter-browser.sh",
+          "start_line": 1,
+          "end_line": 4
+        },
+        {
+          "id": "ref-7",
+          "role": "observation",
+          "path": "starter-unit",
+          "start_line": 1,
+          "end_line": 1
+        },
+        {
+          "id": "ref-8",
+          "role": "observation",
+          "path": "starter-browser",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "high_risk": true
+    },
+    {
+      "id": "scope_matches-4",
+      "kind": "scope_matches",
+      "case_ids": [
+        "CASE-4"
+      ],
+      "ac_ids": [
+        "AC-4"
+      ],
+      "finding_ids": [],
+      "references": [
+        {
+          "id": "ref-1",
+          "role": "requirement",
+          "path": "docs/1/SPEC.md",
+          "start_line": 1,
+          "end_line": 25
+        },
+        {
+          "id": "ref-2",
+          "role": "requirement",
+          "path": "docs/1/behavior-scenarios.json",
+          "start_line": 99,
+          "end_line": 122
+        },
+        {
+          "id": "ref-3",
+          "role": "source",
+          "path": "starter/app.js",
+          "start_line": 23,
+          "end_line": 55
+        },
+        {
+          "id": "ref-4",
+          "role": "source",
+          "path": "starter/test-browser.mjs",
+          "start_line": 1,
+          "end_line": 65
+        },
+        {
+          "id": "ref-5",
+          "role": "assertion",
+          "path": "evals/unit/test-starter.sh",
+          "start_line": 1,
+          "end_line": 5
+        },
+        {
+          "id": "ref-6",
+          "role": "assertion",
+          "path": "evals/unit/test-starter-browser.sh",
+          "start_line": 1,
+          "end_line": 4
+        },
+        {
+          "id": "ref-7",
+          "role": "observation",
+          "path": "starter-unit",
+          "start_line": 1,
+          "end_line": 1
+        },
+        {
+          "id": "ref-8",
+          "role": "observation",
+          "path": "starter-browser",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "high_risk": true
+    },
+    {
+      "id": "scope_matches-5",
+      "kind": "scope_matches",
+      "case_ids": [
+        "CASE-5"
+      ],
+      "ac_ids": [
+        "AC-5"
+      ],
+      "finding_ids": [],
+      "references": [
+        {
+          "id": "ref-1",
+          "role": "requirement",
+          "path": "docs/1/SPEC.md",
+          "start_line": 1,
+          "end_line": 25
+        },
+        {
+          "id": "ref-2",
+          "role": "requirement",
+          "path": "docs/1/behavior-scenarios.json",
+          "start_line": 123,
+          "end_line": 146
+        },
+        {
+          "id": "ref-3",
+          "role": "source",
+          "path": "starter/index.html",
+          "start_line": 1,
+          "end_line": 60
+        },
+        {
+          "id": "ref-4",
+          "role": "source",
+          "path": "starter/styles.css",
+          "start_line": 1,
+          "end_line": 33
+        },
+        {
+          "id": "ref-5",
+          "role": "source",
+          "path": "starter/test-browser.mjs",
+          "start_line": 66,
+          "end_line": 84
+        },
+        {
+          "id": "ref-6",
+          "role": "assertion",
+          "path": "evals/unit/test-starter.sh",
+          "start_line": 1,
+          "end_line": 5
+        },
+        {
+          "id": "ref-7",
+          "role": "assertion",
+          "path": "evals/unit/test-starter-browser.sh",
+          "start_line": 1,
+          "end_line": 4
+        },
+        {
+          "id": "ref-8",
+          "role": "observation",
+          "path": "starter-unit",
+          "start_line": 1,
+          "end_line": 1
+        },
+        {
+          "id": "ref-9",
+          "role": "observation",
+          "path": "starter-browser",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "high_risk": true
+    },
+    {
+      "id": "scope_matches-6",
+      "kind": "scope_matches",
+      "case_ids": [
+        "CASE-6"
+      ],
+      "ac_ids": [
+        "AC-6"
+      ],
+      "finding_ids": [],
+      "references": [
+        {
+          "id": "ref-1",
+          "role": "requirement",
+          "path": "docs/1/SPEC.md",
+          "start_line": 1,
+          "end_line": 25
+        },
+        {
+          "id": "ref-2",
+          "role": "requirement",
+          "path": "docs/1/behavior-scenarios.json",
+          "start_line": 147,
+          "end_line": 170
+        },
+        {
+          "id": "ref-3",
+          "role": "source",
+          "path": "starter/test-unit.cjs",
+          "start_line": 38,
+          "end_line": 50
+        },
+        {
+          "id": "ref-4",
+          "role": "source",
+          "path": "starter/test-browser.mjs",
+          "start_line": 1,
+          "end_line": 126
+        },
+        {
+          "id": "ref-5",
+          "role": "source",
+          "path": "evals/unit/test-starter.sh",
+          "start_line": 1,
+          "end_line": 5
+        },
+        {
+          "id": "ref-6",
+          "role": "source",
+          "path": "evals/unit/test-starter-browser.sh",
+          "start_line": 1,
+          "end_line": 4
+        },
+        {
+          "id": "ref-7",
+          "role": "assertion",
+          "path": "evals/unit/test-starter.sh",
+          "start_line": 1,
+          "end_line": 5
+        },
+        {
+          "id": "ref-8",
+          "role": "assertion",
+          "path": "evals/unit/test-starter-browser.sh",
+          "start_line": 1,
+          "end_line": 4
+        },
+        {
+          "id": "ref-9",
+          "role": "observation",
+          "path": "starter-unit",
+          "start_line": 1,
+          "end_line": 1
+        },
+        {
+          "id": "ref-10",
+          "role": "observation",
+          "path": "starter-browser",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "high_risk": true
+    },
+    {
+      "id": "scope_matches-7",
+      "kind": "scope_matches",
+      "case_ids": [],
+      "ac_ids": [
+        "AC-7"
+      ],
+      "finding_ids": [],
+      "references": [
+        {
+          "id": "ref-1",
+          "role": "requirement",
+          "path": "docs/1/SPEC.md",
+          "start_line": 1,
+          "end_line": 25
+        },
+        {
+          "id": "ref-2",
+          "role": "requirement",
+          "path": "docs/1/behavior-scenarios.json",
+          "start_line": 171,
+          "end_line": 201
+        },
+        {
+          "id": "ref-3",
+          "role": "requirement",
+          "path": "docs/1/behavior-scenarios.json",
+          "start_line": 1,
+          "end_line": 26
+        },
+        {
+          "id": "ref-4",
+          "role": "source",
+          "path": "README.md",
+          "start_line": 1,
+          "end_line": 72
+        },
+        {
+          "id": "ref-5",
+          "role": "assertion",
+          "path": "evals/unit/test-starter.sh",
+          "start_line": 1,
+          "end_line": 5
+        },
+        {
+          "id": "ref-6",
+          "role": "assertion",
+          "path": "evals/unit/test-starter-browser.sh",
+          "start_line": 1,
+          "end_line": 4
+        },
+        {
+          "id": "ref-7",
+          "role": "observation",
+          "path": "starter-unit",
+          "start_line": 1,
+          "end_line": 1
+        },
+        {
+          "id": "ref-8",
+          "role": "observation",
+          "path": "starter-browser",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "high_risk": true
+    },
+    {
+      "id": "scope_matches-8",
+      "kind": "scope_matches",
+      "case_ids": [
+        "CASE-2"
+      ],
+      "ac_ids": [
+        "AC-2"
+      ],
+      "finding_ids": [],
+      "references": [
+        {
+          "id": "ref-1",
+          "role": "requirement",
+          "path": "docs/1/SPEC.md",
+          "start_line": 1,
+          "end_line": 25
+        },
+        {
+          "id": "ref-2",
+          "role": "requirement",
+          "path": "docs/1/behavior-scenarios.json",
+          "start_line": 51,
+          "end_line": 74
+        },
+        {
+          "id": "ref-3",
+          "role": "source",
+          "path": "starter/instructions.js",
+          "start_line": 1,
+          "end_line": 24
+        },
+        {
+          "id": "ref-4",
+          "role": "source",
+          "path": "starter/build.py",
+          "start_line": 10,
+          "end_line": 19
+        },
+        {
+          "id": "ref-5",
+          "role": "source",
+          "path": "starter/test-unit.cjs",
+          "start_line": 51,
+          "end_line": 58
+        },
+        {
+          "id": "ref-6",
+          "role": "assertion",
+          "path": "evals/unit/test-starter.sh",
+          "start_line": 1,
+          "end_line": 5
+        },
+        {
+          "id": "ref-7",
+          "role": "assertion",
+          "path": "evals/unit/test-starter-browser.sh",
+          "start_line": 1,
+          "end_line": 4
+        },
+        {
+          "id": "ref-8",
+          "role": "observation",
+          "path": "starter-unit",
+          "start_line": 1,
+          "end_line": 1
+        },
+        {
+          "id": "ref-9",
+          "role": "observation",
+          "path": "starter-browser",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "high_risk": true
+    },
+    {
+      "id": "scope_matches-9",
+      "kind": "scope_matches",
+      "case_ids": [
+        "CASE-2"
+      ],
+      "ac_ids": [
+        "AC-2"
+      ],
+      "finding_ids": [],
+      "references": [
+        {
+          "id": "ref-1",
+          "role": "requirement",
+          "path": "docs/1/SPEC.md",
+          "start_line": 1,
+          "end_line": 25
+        },
+        {
+          "id": "ref-2",
+          "role": "requirement",
+          "path": "docs/1/behavior-scenarios.json",
+          "start_line": 51,
+          "end_line": 74
+        },
+        {
+          "id": "ref-3",
+          "role": "source",
+          "path": "starter/instructions.js",
+          "start_line": 25,
+          "end_line": 48
+        },
+        {
+          "id": "ref-4",
+          "role": "source",
+          "path": "starter/build.py",
+          "start_line": 10,
+          "end_line": 19
+        },
+        {
+          "id": "ref-5",
+          "role": "source",
+          "path": "starter/test-unit.cjs",
+          "start_line": 51,
+          "end_line": 58
+        },
+        {
+          "id": "ref-6",
+          "role": "assertion",
+          "path": "evals/unit/test-starter.sh",
+          "start_line": 1,
+          "end_line": 5
+        },
+        {
+          "id": "ref-7",
+          "role": "assertion",
+          "path": "evals/unit/test-starter-browser.sh",
+          "start_line": 1,
+          "end_line": 4
+        },
+        {
+          "id": "ref-8",
+          "role": "observation",
+          "path": "starter-unit",
+          "start_line": 1,
+          "end_line": 1
+        },
+        {
+          "id": "ref-9",
+          "role": "observation",
+          "path": "starter-browser",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "high_risk": true
+    },
+    {
+      "id": "scope_matches-10",
+      "kind": "scope_matches",
+      "case_ids": [
+        "CASE-2"
+      ],
+      "ac_ids": [
+        "AC-2"
+      ],
+      "finding_ids": [],
+      "references": [
+        {
+          "id": "ref-1",
+          "role": "requirement",
+          "path": "docs/1/SPEC.md",
+          "start_line": 1,
+          "end_line": 25
+        },
+        {
+          "id": "ref-2",
+          "role": "requirement",
+          "path": "docs/1/behavior-scenarios.json",
+          "start_line": 51,
+          "end_line": 74
+        },
+        {
+          "id": "ref-3",
+          "role": "source",
+          "path": "starter/instructions.js",
+          "start_line": 49,
+          "end_line": 72
+        },
+        {
+          "id": "ref-4",
+          "role": "source",
+          "path": "starter/build.py",
+          "start_line": 10,
+          "end_line": 19
+        },
+        {
+          "id": "ref-5",
+          "role": "source",
+          "path": "starter/test-unit.cjs",
+          "start_line": 51,
+          "end_line": 58
+        },
+        {
+          "id": "ref-6",
+          "role": "assertion",
+          "path": "evals/unit/test-starter.sh",
+          "start_line": 1,
+          "end_line": 5
+        },
+        {
+          "id": "ref-7",
+          "role": "assertion",
+          "path": "evals/unit/test-starter-browser.sh",
+          "start_line": 1,
+          "end_line": 4
+        },
+        {
+          "id": "ref-8",
+          "role": "observation",
+          "path": "starter-unit",
+          "start_line": 1,
+          "end_line": 1
+        },
+        {
+          "id": "ref-9",
+          "role": "observation",
+          "path": "starter-browser",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "high_risk": true
+    },
+    {
+      "id": "scope_matches-11",
+      "kind": "scope_matches",
+      "case_ids": [
+        "CASE-2"
+      ],
+      "ac_ids": [
+        "AC-2"
+      ],
+      "finding_ids": [],
+      "references": [
+        {
+          "id": "ref-1",
+          "role": "requirement",
+          "path": "docs/1/SPEC.md",
+          "start_line": 1,
+          "end_line": 25
+        },
+        {
+          "id": "ref-2",
+          "role": "requirement",
+          "path": "docs/1/behavior-scenarios.json",
+          "start_line": 51,
+          "end_line": 74
+        },
+        {
+          "id": "ref-3",
+          "role": "source",
+          "path": "starter/instructions.js",
+          "start_line": 73,
+          "end_line": 94
+        },
+        {
+          "id": "ref-4",
+          "role": "source",
+          "path": "starter/build.py",
+          "start_line": 10,
+          "end_line": 19
+        },
+        {
+          "id": "ref-5",
+          "role": "source",
+          "path": "starter/test-unit.cjs",
+          "start_line": 51,
+          "end_line": 58
+        },
+        {
+          "id": "ref-6",
+          "role": "assertion",
+          "path": "evals/unit/test-starter.sh",
+          "start_line": 1,
+          "end_line": 5
+        },
+        {
+          "id": "ref-7",
+          "role": "assertion",
+          "path": "evals/unit/test-starter-browser.sh",
+          "start_line": 1,
+          "end_line": 4
+        },
+        {
+          "id": "ref-8",
+          "role": "observation",
+          "path": "starter-unit",
+          "start_line": 1,
+          "end_line": 1
+        },
+        {
+          "id": "ref-9",
+          "role": "observation",
+          "path": "starter-browser",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "high_risk": true
+    },
+    {
+      "id": "oracle_valid-1",
+      "kind": "oracle_valid",
+      "case_ids": [
+        "CASE-1"
+      ],
+      "ac_ids": [
+        "AC-1"
+      ],
+      "finding_ids": [],
+      "references": [
+        {
+          "id": "ref-1",
+          "role": "requirement",
+          "path": "docs/1/SPEC.md",
+          "start_line": 1,
+          "end_line": 25
+        },
+        {
+          "id": "ref-2",
+          "role": "requirement",
+          "path": "docs/1/behavior-scenarios.json",
+          "start_line": 27,
+          "end_line": 50
+        },
+        {
+          "id": "ref-3",
+          "role": "source",
+          "path": "starter/app.js",
+          "start_line": 1,
+          "end_line": 75
+        },
+        {
+          "id": "ref-4",
+          "role": "source",
+          "path": "starter/test-unit.cjs",
+          "start_line": 1,
+          "end_line": 21
+        },
+        {
+          "id": "ref-5",
+          "role": "assertion",
+          "path": "evals/unit/test-starter.sh",
+          "start_line": 1,
+          "end_line": 5
+        },
+        {
+          "id": "ref-6",
+          "role": "assertion",
+          "path": "evals/unit/test-starter-browser.sh",
+          "start_line": 1,
+          "end_line": 4
+        },
+        {
+          "id": "ref-7",
+          "role": "observation",
+          "path": "starter-unit",
+          "start_line": 1,
+          "end_line": 1
+        },
+        {
+          "id": "ref-8",
+          "role": "observation",
+          "path": "starter-browser",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "high_risk": true
+    },
+    {
+      "id": "oracle_valid-2",
+      "kind": "oracle_valid",
+      "case_ids": [
+        "CASE-2"
+      ],
+      "ac_ids": [
+        "AC-2"
+      ],
+      "finding_ids": [],
+      "references": [
+        {
+          "id": "ref-1",
+          "role": "requirement",
+          "path": "docs/1/SPEC.md",
+          "start_line": 1,
+          "end_line": 25
+        },
+        {
+          "id": "ref-2",
+          "role": "requirement",
+          "path": "docs/1/behavior-scenarios.json",
+          "start_line": 51,
+          "end_line": 74
+        },
+        {
+          "id": "ref-3",
+          "role": "source",
+          "path": "starter/build.py",
+          "start_line": 1,
+          "end_line": 36
+        },
+        {
+          "id": "ref-4",
+          "role": "source",
+          "path": "starter/test-unit.cjs",
+          "start_line": 22,
+          "end_line": 37
+        },
+        {
+          "id": "ref-5",
+          "role": "source",
+          "path": "starter/test-unit.cjs",
+          "start_line": 51,
+          "end_line": 83
+        },
+        {
+          "id": "ref-6",
+          "role": "assertion",
+          "path": "evals/unit/test-starter.sh",
+          "start_line": 1,
+          "end_line": 5
+        },
+        {
+          "id": "ref-7",
+          "role": "assertion",
+          "path": "evals/unit/test-starter-browser.sh",
+          "start_line": 1,
+          "end_line": 4
+        },
+        {
+          "id": "ref-8",
+          "role": "observation",
+          "path": "starter-unit",
+          "start_line": 1,
+          "end_line": 1
+        },
+        {
+          "id": "ref-9",
+          "role": "observation",
+          "path": "starter-browser",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "high_risk": true
+    },
+    {
+      "id": "oracle_valid-3",
+      "kind": "oracle_valid",
+      "case_ids": [
+        "CASE-3"
+      ],
+      "ac_ids": [
+        "AC-3"
+      ],
+      "finding_ids": [],
+      "references": [
+        {
+          "id": "ref-1",
+          "role": "requirement",
+          "path": "docs/1/SPEC.md",
+          "start_line": 1,
+          "end_line": 25
+        },
+        {
+          "id": "ref-2",
+          "role": "requirement",
+          "path": "docs/1/behavior-scenarios.json",
+          "start_line": 75,
+          "end_line": 98
+        },
+        {
+          "id": "ref-3",
+          "role": "source",
+          "path": "starter/app.js",
+          "start_line": 56,
+          "end_line": 104
+        },
+        {
+          "id": "ref-4",
+          "role": "source",
+          "path": "starter/test-browser.mjs",
+          "start_line": 85,
+          "end_line": 126
+        },
+        {
+          "id": "ref-5",
+          "role": "assertion",
+          "path": "evals/unit/test-starter.sh",
+          "start_line": 1,
+          "end_line": 5
+        },
+        {
+          "id": "ref-6",
+          "role": "assertion",
+          "path": "evals/unit/test-starter-browser.sh",
+          "start_line": 1,
+          "end_line": 4
+        },
+        {
+          "id": "ref-7",
+          "role": "observation",
+          "path": "starter-unit",
+          "start_line": 1,
+          "end_line": 1
+        },
+        {
+          "id": "ref-8",
+          "role": "observation",
+          "path": "starter-browser",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "high_risk": true
+    },
+    {
+      "id": "oracle_valid-4",
+      "kind": "oracle_valid",
+      "case_ids": [
+        "CASE-4"
+      ],
+      "ac_ids": [
+        "AC-4"
+      ],
+      "finding_ids": [],
+      "references": [
+        {
+          "id": "ref-1",
+          "role": "requirement",
+          "path": "docs/1/SPEC.md",
+          "start_line": 1,
+          "end_line": 25
+        },
+        {
+          "id": "ref-2",
+          "role": "requirement",
+          "path": "docs/1/behavior-scenarios.json",
+          "start_line": 99,
+          "end_line": 122
+        },
+        {
+          "id": "ref-3",
+          "role": "source",
+          "path": "starter/app.js",
+          "start_line": 23,
+          "end_line": 55
+        },
+        {
+          "id": "ref-4",
+          "role": "source",
+          "path": "starter/test-browser.mjs",
+          "start_line": 1,
+          "end_line": 65
+        },
+        {
+          "id": "ref-5",
+          "role": "assertion",
+          "path": "evals/unit/test-starter.sh",
+          "start_line": 1,
+          "end_line": 5
+        },
+        {
+          "id": "ref-6",
+          "role": "assertion",
+          "path": "evals/unit/test-starter-browser.sh",
+          "start_line": 1,
+          "end_line": 4
+        },
+        {
+          "id": "ref-7",
+          "role": "observation",
+          "path": "starter-unit",
+          "start_line": 1,
+          "end_line": 1
+        },
+        {
+          "id": "ref-8",
+          "role": "observation",
+          "path": "starter-browser",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "high_risk": true
+    },
+    {
+      "id": "oracle_valid-5",
+      "kind": "oracle_valid",
+      "case_ids": [
+        "CASE-5"
+      ],
+      "ac_ids": [
+        "AC-5"
+      ],
+      "finding_ids": [],
+      "references": [
+        {
+          "id": "ref-1",
+          "role": "requirement",
+          "path": "docs/1/SPEC.md",
+          "start_line": 1,
+          "end_line": 25
+        },
+        {
+          "id": "ref-2",
+          "role": "requirement",
+          "path": "docs/1/behavior-scenarios.json",
+          "start_line": 123,
+          "end_line": 146
+        },
+        {
+          "id": "ref-3",
+          "role": "source",
+          "path": "starter/index.html",
+          "start_line": 1,
+          "end_line": 60
+        },
+        {
+          "id": "ref-4",
+          "role": "source",
+          "path": "starter/styles.css",
+          "start_line": 1,
+          "end_line": 33
+        },
+        {
+          "id": "ref-5",
+          "role": "source",
+          "path": "starter/test-browser.mjs",
+          "start_line": 66,
+          "end_line": 84
+        },
+        {
+          "id": "ref-6",
+          "role": "assertion",
+          "path": "evals/unit/test-starter.sh",
+          "start_line": 1,
+          "end_line": 5
+        },
+        {
+          "id": "ref-7",
+          "role": "assertion",
+          "path": "evals/unit/test-starter-browser.sh",
+          "start_line": 1,
+          "end_line": 4
+        },
+        {
+          "id": "ref-8",
+          "role": "observation",
+          "path": "starter-unit",
+          "start_line": 1,
+          "end_line": 1
+        },
+        {
+          "id": "ref-9",
+          "role": "observation",
+          "path": "starter-browser",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "high_risk": true
+    },
+    {
+      "id": "oracle_valid-6",
+      "kind": "oracle_valid",
+      "case_ids": [
+        "CASE-6"
+      ],
+      "ac_ids": [
+        "AC-6"
+      ],
+      "finding_ids": [],
+      "references": [
+        {
+          "id": "ref-1",
+          "role": "requirement",
+          "path": "docs/1/SPEC.md",
+          "start_line": 1,
+          "end_line": 25
+        },
+        {
+          "id": "ref-2",
+          "role": "requirement",
+          "path": "docs/1/behavior-scenarios.json",
+          "start_line": 147,
+          "end_line": 170
+        },
+        {
+          "id": "ref-3",
+          "role": "source",
+          "path": "starter/test-unit.cjs",
+          "start_line": 38,
+          "end_line": 50
+        },
+        {
+          "id": "ref-4",
+          "role": "source",
+          "path": "starter/test-browser.mjs",
+          "start_line": 1,
+          "end_line": 126
+        },
+        {
+          "id": "ref-5",
+          "role": "source",
+          "path": "evals/unit/test-starter.sh",
+          "start_line": 1,
+          "end_line": 5
+        },
+        {
+          "id": "ref-6",
+          "role": "source",
+          "path": "evals/unit/test-starter-browser.sh",
+          "start_line": 1,
+          "end_line": 4
+        },
+        {
+          "id": "ref-7",
+          "role": "assertion",
+          "path": "evals/unit/test-starter.sh",
+          "start_line": 1,
+          "end_line": 5
+        },
+        {
+          "id": "ref-8",
+          "role": "assertion",
+          "path": "evals/unit/test-starter-browser.sh",
+          "start_line": 1,
+          "end_line": 4
+        },
+        {
+          "id": "ref-9",
+          "role": "observation",
+          "path": "starter-unit",
+          "start_line": 1,
+          "end_line": 1
+        },
+        {
+          "id": "ref-10",
+          "role": "observation",
+          "path": "starter-browser",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "high_risk": true
+    },
+    {
+      "id": "oracle_valid-7",
+      "kind": "oracle_valid",
+      "case_ids": [],
+      "ac_ids": [
+        "AC-7"
+      ],
+      "finding_ids": [],
+      "references": [
+        {
+          "id": "ref-1",
+          "role": "requirement",
+          "path": "docs/1/SPEC.md",
+          "start_line": 1,
+          "end_line": 25
+        },
+        {
+          "id": "ref-2",
+          "role": "requirement",
+          "path": "docs/1/behavior-scenarios.json",
+          "start_line": 171,
+          "end_line": 201
+        },
+        {
+          "id": "ref-3",
+          "role": "requirement",
+          "path": "docs/1/behavior-scenarios.json",
+          "start_line": 1,
+          "end_line": 26
+        },
+        {
+          "id": "ref-4",
+          "role": "source",
+          "path": "README.md",
+          "start_line": 1,
+          "end_line": 72
+        },
+        {
+          "id": "ref-5",
+          "role": "assertion",
+          "path": "evals/unit/test-starter.sh",
+          "start_line": 1,
+          "end_line": 5
+        },
+        {
+          "id": "ref-6",
+          "role": "assertion",
+          "path": "evals/unit/test-starter-browser.sh",
+          "start_line": 1,
+          "end_line": 4
+        },
+        {
+          "id": "ref-7",
+          "role": "observation",
+          "path": "starter-unit",
+          "start_line": 1,
+          "end_line": 1
+        },
+        {
+          "id": "ref-8",
+          "role": "observation",
+          "path": "starter-browser",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "high_risk": true
+    },
+    {
+      "id": "oracle_valid-8",
+      "kind": "oracle_valid",
+      "case_ids": [
+        "CASE-2"
+      ],
+      "ac_ids": [
+        "AC-2"
+      ],
+      "finding_ids": [],
+      "references": [
+        {
+          "id": "ref-1",
+          "role": "requirement",
+          "path": "docs/1/SPEC.md",
+          "start_line": 1,
+          "end_line": 25
+        },
+        {
+          "id": "ref-2",
+          "role": "requirement",
+          "path": "docs/1/behavior-scenarios.json",
+          "start_line": 51,
+          "end_line": 74
+        },
+        {
+          "id": "ref-3",
+          "role": "source",
+          "path": "starter/instructions.js",
+          "start_line": 1,
+          "end_line": 24
+        },
+        {
+          "id": "ref-4",
+          "role": "source",
+          "path": "starter/build.py",
+          "start_line": 10,
+          "end_line": 19
+        },
+        {
+          "id": "ref-5",
+          "role": "source",
+          "path": "starter/test-unit.cjs",
+          "start_line": 51,
+          "end_line": 58
+        },
+        {
+          "id": "ref-6",
+          "role": "assertion",
+          "path": "evals/unit/test-starter.sh",
+          "start_line": 1,
+          "end_line": 5
+        },
+        {
+          "id": "ref-7",
+          "role": "assertion",
+          "path": "evals/unit/test-starter-browser.sh",
+          "start_line": 1,
+          "end_line": 4
+        },
+        {
+          "id": "ref-8",
+          "role": "observation",
+          "path": "starter-unit",
+          "start_line": 1,
+          "end_line": 1
+        },
+        {
+          "id": "ref-9",
+          "role": "observation",
+          "path": "starter-browser",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "high_risk": true
+    },
+    {
+      "id": "oracle_valid-9",
+      "kind": "oracle_valid",
+      "case_ids": [
+        "CASE-2"
+      ],
+      "ac_ids": [
+        "AC-2"
+      ],
+      "finding_ids": [],
+      "references": [
+        {
+          "id": "ref-1",
+          "role": "requirement",
+          "path": "docs/1/SPEC.md",
+          "start_line": 1,
+          "end_line": 25
+        },
+        {
+          "id": "ref-2",
+          "role": "requirement",
+          "path": "docs/1/behavior-scenarios.json",
+          "start_line": 51,
+          "end_line": 74
+        },
+        {
+          "id": "ref-3",
+          "role": "source",
+          "path": "starter/instructions.js",
+          "start_line": 25,
+          "end_line": 48
+        },
+        {
+          "id": "ref-4",
+          "role": "source",
+          "path": "starter/build.py",
+          "start_line": 10,
+          "end_line": 19
+        },
+        {
+          "id": "ref-5",
+          "role": "source",
+          "path": "starter/test-unit.cjs",
+          "start_line": 51,
+          "end_line": 58
+        },
+        {
+          "id": "ref-6",
+          "role": "assertion",
+          "path": "evals/unit/test-starter.sh",
+          "start_line": 1,
+          "end_line": 5
+        },
+        {
+          "id": "ref-7",
+          "role": "assertion",
+          "path": "evals/unit/test-starter-browser.sh",
+          "start_line": 1,
+          "end_line": 4
+        },
+        {
+          "id": "ref-8",
+          "role": "observation",
+          "path": "starter-unit",
+          "start_line": 1,
+          "end_line": 1
+        },
+        {
+          "id": "ref-9",
+          "role": "observation",
+          "path": "starter-browser",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "high_risk": true
+    },
+    {
+      "id": "oracle_valid-10",
+      "kind": "oracle_valid",
+      "case_ids": [
+        "CASE-2"
+      ],
+      "ac_ids": [
+        "AC-2"
+      ],
+      "finding_ids": [],
+      "references": [
+        {
+          "id": "ref-1",
+          "role": "requirement",
+          "path": "docs/1/SPEC.md",
+          "start_line": 1,
+          "end_line": 25
+        },
+        {
+          "id": "ref-2",
+          "role": "requirement",
+          "path": "docs/1/behavior-scenarios.json",
+          "start_line": 51,
+          "end_line": 74
+        },
+        {
+          "id": "ref-3",
+          "role": "source",
+          "path": "starter/instructions.js",
+          "start_line": 49,
+          "end_line": 72
+        },
+        {
+          "id": "ref-4",
+          "role": "source",
+          "path": "starter/build.py",
+          "start_line": 10,
+          "end_line": 19
+        },
+        {
+          "id": "ref-5",
+          "role": "source",
+          "path": "starter/test-unit.cjs",
+          "start_line": 51,
+          "end_line": 58
+        },
+        {
+          "id": "ref-6",
+          "role": "assertion",
+          "path": "evals/unit/test-starter.sh",
+          "start_line": 1,
+          "end_line": 5
+        },
+        {
+          "id": "ref-7",
+          "role": "assertion",
+          "path": "evals/unit/test-starter-browser.sh",
+          "start_line": 1,
+          "end_line": 4
+        },
+        {
+          "id": "ref-8",
+          "role": "observation",
+          "path": "starter-unit",
+          "start_line": 1,
+          "end_line": 1
+        },
+        {
+          "id": "ref-9",
+          "role": "observation",
+          "path": "starter-browser",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "high_risk": true
+    },
+    {
+      "id": "oracle_valid-11",
+      "kind": "oracle_valid",
+      "case_ids": [
+        "CASE-2"
+      ],
+      "ac_ids": [
+        "AC-2"
+      ],
+      "finding_ids": [],
+      "references": [
+        {
+          "id": "ref-1",
+          "role": "requirement",
+          "path": "docs/1/SPEC.md",
+          "start_line": 1,
+          "end_line": 25
+        },
+        {
+          "id": "ref-2",
+          "role": "requirement",
+          "path": "docs/1/behavior-scenarios.json",
+          "start_line": 51,
+          "end_line": 74
+        },
+        {
+          "id": "ref-3",
+          "role": "source",
+          "path": "starter/instructions.js",
+          "start_line": 73,
+          "end_line": 94
+        },
+        {
+          "id": "ref-4",
+          "role": "source",
+          "path": "starter/build.py",
+          "start_line": 10,
+          "end_line": 19
+        },
+        {
+          "id": "ref-5",
+          "role": "source",
+          "path": "starter/test-unit.cjs",
+          "start_line": 51,
+          "end_line": 58
+        },
+        {
+          "id": "ref-6",
+          "role": "assertion",
+          "path": "evals/unit/test-starter.sh",
+          "start_line": 1,
+          "end_line": 5
+        },
+        {
+          "id": "ref-7",
+          "role": "assertion",
+          "path": "evals/unit/test-starter-browser.sh",
+          "start_line": 1,
+          "end_line": 4
+        },
+        {
+          "id": "ref-8",
+          "role": "observation",
+          "path": "starter-unit",
+          "start_line": 1,
+          "end_line": 1
+        },
+        {
+          "id": "ref-9",
+          "role": "observation",
+          "path": "starter-browser",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "high_risk": true
+    },
+    {
+      "id": "retained-product-finding",
+      "kind": "finding_resolved",
+      "case_ids": [],
+      "ac_ids": [
+        "AC-7"
+      ],
+      "finding_ids": [
+        "14619cbacae0c6a1f2049356ad10e70c0af6b9177da3824913beb731a31fce35"
+      ],
+      "references": [
+        {
+          "id": "ref-1",
+          "role": "requirement",
+          "path": "docs/1/SPEC.md",
+          "start_line": 1,
+          "end_line": 25
+        },
+        {
+          "id": "ref-2",
+          "role": "requirement",
+          "path": "docs/1/behavior-scenarios.json",
+          "start_line": 171,
+          "end_line": 201
+        },
+        {
+          "id": "ref-3",
+          "role": "requirement",
+          "path": "docs/1/behavior-scenarios.json",
+          "start_line": 1,
+          "end_line": 26
+        },
+        {
+          "id": "ref-4",
+          "role": "source",
+          "path": "README.md",
+          "start_line": 1,
+          "end_line": 72
+        },
+        {
+          "id": "ref-5",
+          "role": "assertion",
+          "path": "evals/unit/test-starter.sh",
+          "start_line": 1,
+          "end_line": 5
+        },
+        {
+          "id": "ref-6",
+          "role": "assertion",
+          "path": "evals/unit/test-starter-browser.sh",
+          "start_line": 1,
+          "end_line": 4
+        },
+        {
+          "id": "ref-7",
+          "role": "observation",
+          "path": "starter-unit",
+          "start_line": 1,
+          "end_line": 1
+        },
+        {
+          "id": "ref-8",
+          "role": "observation",
+          "path": "starter-browser",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "high_risk": true
+    }
+  ]
+}

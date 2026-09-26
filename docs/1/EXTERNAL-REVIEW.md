@@ -45,3 +45,16 @@ These hashes bind the reviewed workspace content before commit; this document do
 | `docs/1/SPEC.md` | `bb4480e9d68860901895cdfa42c951ab09347631c9b046b60f10a48bb6c5a60d` |
 | `docs/1/behavior-scenarios.json` | `3782ca84997515211dc287bb08d6259fe7c471630505dc356507018b26232dd8` |
 | `docs/1/direct-verification/browser-acceptance/report.json` | `c4fe93e6c6d95c9bf6373f8547ff2c8502b4944ce99c4f7bd87f80dfe95e9664` |
+
+## Recovery proposal supplement
+
+The local browser wrapper `evals/unit/test-starter-browser.sh` was independently reviewed and executed successfully with fictional data and an externally supplied Playwright installation. Its result is retained separately under `/private/tmp/nightshift-consumer-recovery-browser-wrapper/report.json`; the committed acceptance report above remains unchanged.
+
+`docs/1/recovery-plan.json` is an unapproved proposal for explicit independent semantic review. It maps 34 decisions across 45 gate calls, including browser observations for clipboard, privacy and accessibility behavior. An independent line-union audit confirms complete changed source, specification, scenario and check-wrapper coverage in each gate. The proposal preserves the retained failed receipt as a finding to assess; it does not turn it into a valid receipt. Runtime contract admission, complete request-size validation, copied-workspace verification and any separate operator authorization remain pending. No provider call or recovery authorization was made.
+
+Additional SHA-256 bindings:
+
+| File | SHA-256 |
+| --- | --- |
+| `evals/unit/test-starter-browser.sh` | `9f2c22c11a58c1a123c325a7cedb0c40034dc268c064408ac8cbab14099543e8` |
+| `docs/1/recovery-plan.json` | `2cf75fdcf43663b6e3b99f6a892505d0f58b187f4c946b13bcd4e3fb38d116f0` |
