@@ -85,7 +85,7 @@
           "role": "observation",
           "path": "starter-unit",
           "start_line": 1,
-          "end_line": 1
+          "end_line": 16
         },
         {
           "id": "ref-8",
@@ -162,7 +162,7 @@
           "role": "observation",
           "path": "starter-unit",
           "start_line": 1,
-          "end_line": 1
+          "end_line": 16
         },
         {
           "id": "ref-9",
@@ -170,6 +170,20 @@
           "path": "starter-browser",
           "start_line": 1,
           "end_line": 1
+        },
+        {
+          "id": "ref-10",
+          "role": "source",
+          "path": "starter/app.js",
+          "start_line": 1,
+          "end_line": 16
+        },
+        {
+          "id": "ref-11",
+          "role": "source",
+          "path": "starter/test-unit.cjs",
+          "start_line": 1,
+          "end_line": 11
         }
       ],
       "high_risk": true
@@ -203,7 +217,7 @@
           "id": "ref-3",
           "role": "source",
           "path": "starter/app.js",
-          "start_line": 56,
+          "start_line": 1,
           "end_line": 104
         },
         {
@@ -232,7 +246,7 @@
           "role": "observation",
           "path": "starter-unit",
           "start_line": 1,
-          "end_line": 1
+          "end_line": 16
         },
         {
           "id": "ref-8",
@@ -240,6 +254,20 @@
           "path": "starter-browser",
           "start_line": 1,
           "end_line": 1
+        },
+        {
+          "id": "ref-9",
+          "role": "source",
+          "path": "starter/test-browser.mjs",
+          "start_line": 1,
+          "end_line": 31
+        },
+        {
+          "id": "ref-10",
+          "role": "source",
+          "path": "starter/test-browser.mjs",
+          "start_line": 42,
+          "end_line": 65
         }
       ],
       "high_risk": true
@@ -302,7 +330,7 @@
           "role": "observation",
           "path": "starter-unit",
           "start_line": 1,
-          "end_line": 1
+          "end_line": 16
         },
         {
           "id": "ref-8",
@@ -312,7 +340,7 @@
           "end_line": 1
         },
         {
-          "id": "privacy-refresh",
+          "id": "ref-9",
           "role": "source",
           "path": "starter/test-browser.mjs",
           "start_line": 90,
@@ -364,32 +392,39 @@
           "id": "ref-5",
           "role": "source",
           "path": "starter/test-browser.mjs",
-          "start_line": 66,
-          "end_line": 89
+          "start_line": 1,
+          "end_line": 31
         },
         {
           "id": "ref-6",
+          "role": "source",
+          "path": "starter/test-browser.mjs",
+          "start_line": 42,
+          "end_line": 89
+        },
+        {
+          "id": "ref-7",
           "role": "assertion",
           "path": "evals/unit/test-starter.sh",
           "start_line": 1,
           "end_line": 5
         },
         {
-          "id": "ref-7",
+          "id": "ref-8",
           "role": "assertion",
           "path": "evals/unit/test-starter-browser.sh",
           "start_line": 1,
           "end_line": 4
         },
         {
-          "id": "ref-8",
+          "id": "ref-9",
           "role": "observation",
           "path": "starter-unit",
           "start_line": 1,
-          "end_line": 1
+          "end_line": 16
         },
         {
-          "id": "ref-9",
+          "id": "ref-10",
           "role": "observation",
           "path": "starter-browser",
           "start_line": 1,
@@ -470,7 +505,7 @@
           "role": "observation",
           "path": "starter-unit",
           "start_line": 1,
-          "end_line": 1
+          "end_line": 16
         },
         {
           "id": "ref-10",
@@ -480,25 +515,39 @@
           "end_line": 1
         },
         {
-          "id": "context-11",
+          "id": "ref-11",
           "role": "requirement",
           "path": "docs/1/behavior-scenarios.json",
           "start_line": 171,
           "end_line": 201
         },
         {
-          "id": "context-12",
+          "id": "ref-12",
           "role": "requirement",
           "path": "docs/1/behavior-scenarios.json",
           "start_line": 1,
           "end_line": 26
         },
         {
-          "id": "context-13",
+          "id": "ref-13",
           "role": "source",
           "path": "README.md",
           "start_line": 1,
           "end_line": 72
+        },
+        {
+          "id": "ref-14",
+          "role": "source",
+          "path": "starter/test-unit.cjs",
+          "start_line": 1,
+          "end_line": 11
+        },
+        {
+          "id": "ref-15",
+          "role": "source",
+          "path": "starter/test-browser.mjs",
+          "start_line": 1,
+          "end_line": 19
         }
       ],
       "high_risk": true
@@ -539,8 +588,8 @@
           "id": "ref-4",
           "role": "source",
           "path": "starter/build.py",
-          "start_line": 10,
-          "end_line": 19
+          "start_line": 1,
+          "end_line": 36
         },
         {
           "id": "ref-5",
@@ -568,7 +617,7 @@
           "role": "observation",
           "path": "starter-unit",
           "start_line": 1,
-          "end_line": 1
+          "end_line": 16
         },
         {
           "id": "ref-9",
@@ -576,6 +625,13 @@
           "path": "starter-browser",
           "start_line": 1,
           "end_line": 1
+        },
+        {
+          "id": "ref-10",
+          "role": "source",
+          "path": "starter/test-unit.cjs",
+          "start_line": 1,
+          "end_line": 11
         }
       ],
       "high_risk": true
@@ -616,8 +672,8 @@
           "id": "ref-4",
           "role": "source",
           "path": "starter/build.py",
-          "start_line": 10,
-          "end_line": 19
+          "start_line": 1,
+          "end_line": 36
         },
         {
           "id": "ref-5",
@@ -645,7 +701,7 @@
           "role": "observation",
           "path": "starter-unit",
           "start_line": 1,
-          "end_line": 1
+          "end_line": 16
         },
         {
           "id": "ref-9",
@@ -653,6 +709,13 @@
           "path": "starter-browser",
           "start_line": 1,
           "end_line": 1
+        },
+        {
+          "id": "ref-10",
+          "role": "source",
+          "path": "starter/test-unit.cjs",
+          "start_line": 1,
+          "end_line": 11
         }
       ],
       "high_risk": true
@@ -693,8 +756,8 @@
           "id": "ref-4",
           "role": "source",
           "path": "starter/build.py",
-          "start_line": 10,
-          "end_line": 19
+          "start_line": 1,
+          "end_line": 36
         },
         {
           "id": "ref-5",
@@ -722,7 +785,7 @@
           "role": "observation",
           "path": "starter-unit",
           "start_line": 1,
-          "end_line": 1
+          "end_line": 16
         },
         {
           "id": "ref-9",
@@ -730,6 +793,13 @@
           "path": "starter-browser",
           "start_line": 1,
           "end_line": 1
+        },
+        {
+          "id": "ref-10",
+          "role": "source",
+          "path": "starter/test-unit.cjs",
+          "start_line": 1,
+          "end_line": 11
         }
       ],
       "high_risk": true
@@ -770,8 +840,8 @@
           "id": "ref-4",
           "role": "source",
           "path": "starter/build.py",
-          "start_line": 10,
-          "end_line": 19
+          "start_line": 1,
+          "end_line": 36
         },
         {
           "id": "ref-5",
@@ -799,7 +869,7 @@
           "role": "observation",
           "path": "starter-unit",
           "start_line": 1,
-          "end_line": 1
+          "end_line": 16
         },
         {
           "id": "ref-9",
@@ -807,6 +877,13 @@
           "path": "starter-browser",
           "start_line": 1,
           "end_line": 1
+        },
+        {
+          "id": "ref-10",
+          "role": "source",
+          "path": "starter/test-unit.cjs",
+          "start_line": 1,
+          "end_line": 11
         }
       ],
       "high_risk": true
@@ -869,7 +946,7 @@
           "role": "observation",
           "path": "starter-unit",
           "start_line": 1,
-          "end_line": 1
+          "end_line": 16
         },
         {
           "id": "ref-8",
@@ -946,7 +1023,7 @@
           "role": "observation",
           "path": "starter-unit",
           "start_line": 1,
-          "end_line": 1
+          "end_line": 16
         },
         {
           "id": "ref-9",
@@ -954,6 +1031,20 @@
           "path": "starter-browser",
           "start_line": 1,
           "end_line": 1
+        },
+        {
+          "id": "ref-10",
+          "role": "source",
+          "path": "starter/app.js",
+          "start_line": 1,
+          "end_line": 16
+        },
+        {
+          "id": "ref-11",
+          "role": "source",
+          "path": "starter/test-unit.cjs",
+          "start_line": 1,
+          "end_line": 11
         }
       ],
       "high_risk": true
@@ -987,7 +1078,7 @@
           "id": "ref-3",
           "role": "source",
           "path": "starter/app.js",
-          "start_line": 56,
+          "start_line": 1,
           "end_line": 104
         },
         {
@@ -1016,7 +1107,7 @@
           "role": "observation",
           "path": "starter-unit",
           "start_line": 1,
-          "end_line": 1
+          "end_line": 16
         },
         {
           "id": "ref-8",
@@ -1024,6 +1115,20 @@
           "path": "starter-browser",
           "start_line": 1,
           "end_line": 1
+        },
+        {
+          "id": "ref-9",
+          "role": "source",
+          "path": "starter/test-browser.mjs",
+          "start_line": 1,
+          "end_line": 31
+        },
+        {
+          "id": "ref-10",
+          "role": "source",
+          "path": "starter/test-browser.mjs",
+          "start_line": 42,
+          "end_line": 65
         }
       ],
       "high_risk": true
@@ -1086,7 +1191,7 @@
           "role": "observation",
           "path": "starter-unit",
           "start_line": 1,
-          "end_line": 1
+          "end_line": 16
         },
         {
           "id": "ref-8",
@@ -1096,7 +1201,7 @@
           "end_line": 1
         },
         {
-          "id": "privacy-refresh",
+          "id": "ref-9",
           "role": "source",
           "path": "starter/test-browser.mjs",
           "start_line": 90,
@@ -1148,32 +1253,39 @@
           "id": "ref-5",
           "role": "source",
           "path": "starter/test-browser.mjs",
-          "start_line": 66,
-          "end_line": 89
+          "start_line": 1,
+          "end_line": 31
         },
         {
           "id": "ref-6",
+          "role": "source",
+          "path": "starter/test-browser.mjs",
+          "start_line": 42,
+          "end_line": 89
+        },
+        {
+          "id": "ref-7",
           "role": "assertion",
           "path": "evals/unit/test-starter.sh",
           "start_line": 1,
           "end_line": 5
         },
         {
-          "id": "ref-7",
+          "id": "ref-8",
           "role": "assertion",
           "path": "evals/unit/test-starter-browser.sh",
           "start_line": 1,
           "end_line": 4
         },
         {
-          "id": "ref-8",
+          "id": "ref-9",
           "role": "observation",
           "path": "starter-unit",
           "start_line": 1,
-          "end_line": 1
+          "end_line": 16
         },
         {
-          "id": "ref-9",
+          "id": "ref-10",
           "role": "observation",
           "path": "starter-browser",
           "start_line": 1,
@@ -1254,7 +1366,7 @@
           "role": "observation",
           "path": "starter-unit",
           "start_line": 1,
-          "end_line": 1
+          "end_line": 16
         },
         {
           "id": "ref-10",
@@ -1264,25 +1376,39 @@
           "end_line": 1
         },
         {
-          "id": "context-11",
+          "id": "ref-11",
           "role": "requirement",
           "path": "docs/1/behavior-scenarios.json",
           "start_line": 171,
           "end_line": 201
         },
         {
-          "id": "context-12",
+          "id": "ref-12",
           "role": "requirement",
           "path": "docs/1/behavior-scenarios.json",
           "start_line": 1,
           "end_line": 26
         },
         {
-          "id": "context-13",
+          "id": "ref-13",
           "role": "source",
           "path": "README.md",
           "start_line": 1,
           "end_line": 72
+        },
+        {
+          "id": "ref-14",
+          "role": "source",
+          "path": "starter/test-unit.cjs",
+          "start_line": 1,
+          "end_line": 11
+        },
+        {
+          "id": "ref-15",
+          "role": "source",
+          "path": "starter/test-browser.mjs",
+          "start_line": 1,
+          "end_line": 19
         }
       ],
       "high_risk": true
@@ -1323,8 +1449,8 @@
           "id": "ref-4",
           "role": "source",
           "path": "starter/build.py",
-          "start_line": 10,
-          "end_line": 19
+          "start_line": 1,
+          "end_line": 36
         },
         {
           "id": "ref-5",
@@ -1352,7 +1478,7 @@
           "role": "observation",
           "path": "starter-unit",
           "start_line": 1,
-          "end_line": 1
+          "end_line": 16
         },
         {
           "id": "ref-9",
@@ -1360,6 +1486,13 @@
           "path": "starter-browser",
           "start_line": 1,
           "end_line": 1
+        },
+        {
+          "id": "ref-10",
+          "role": "source",
+          "path": "starter/test-unit.cjs",
+          "start_line": 1,
+          "end_line": 11
         }
       ],
       "high_risk": true
@@ -1400,8 +1533,8 @@
           "id": "ref-4",
           "role": "source",
           "path": "starter/build.py",
-          "start_line": 10,
-          "end_line": 19
+          "start_line": 1,
+          "end_line": 36
         },
         {
           "id": "ref-5",
@@ -1429,7 +1562,7 @@
           "role": "observation",
           "path": "starter-unit",
           "start_line": 1,
-          "end_line": 1
+          "end_line": 16
         },
         {
           "id": "ref-9",
@@ -1437,6 +1570,13 @@
           "path": "starter-browser",
           "start_line": 1,
           "end_line": 1
+        },
+        {
+          "id": "ref-10",
+          "role": "source",
+          "path": "starter/test-unit.cjs",
+          "start_line": 1,
+          "end_line": 11
         }
       ],
       "high_risk": true
@@ -1477,8 +1617,8 @@
           "id": "ref-4",
           "role": "source",
           "path": "starter/build.py",
-          "start_line": 10,
-          "end_line": 19
+          "start_line": 1,
+          "end_line": 36
         },
         {
           "id": "ref-5",
@@ -1506,7 +1646,7 @@
           "role": "observation",
           "path": "starter-unit",
           "start_line": 1,
-          "end_line": 1
+          "end_line": 16
         },
         {
           "id": "ref-9",
@@ -1514,6 +1654,13 @@
           "path": "starter-browser",
           "start_line": 1,
           "end_line": 1
+        },
+        {
+          "id": "ref-10",
+          "role": "source",
+          "path": "starter/test-unit.cjs",
+          "start_line": 1,
+          "end_line": 11
         }
       ],
       "high_risk": true
@@ -1554,8 +1701,8 @@
           "id": "ref-4",
           "role": "source",
           "path": "starter/build.py",
-          "start_line": 10,
-          "end_line": 19
+          "start_line": 1,
+          "end_line": 36
         },
         {
           "id": "ref-5",
@@ -1583,7 +1730,7 @@
           "role": "observation",
           "path": "starter-unit",
           "start_line": 1,
-          "end_line": 1
+          "end_line": 16
         },
         {
           "id": "ref-9",
@@ -1591,6 +1738,13 @@
           "path": "starter-browser",
           "start_line": 1,
           "end_line": 1
+        },
+        {
+          "id": "ref-10",
+          "role": "source",
+          "path": "starter/test-unit.cjs",
+          "start_line": 1,
+          "end_line": 11
         }
       ],
       "high_risk": true
@@ -1653,7 +1807,7 @@
           "role": "observation",
           "path": "starter-unit",
           "start_line": 1,
-          "end_line": 1
+          "end_line": 16
         },
         {
           "id": "ref-8",
@@ -1730,7 +1884,7 @@
           "role": "observation",
           "path": "starter-unit",
           "start_line": 1,
-          "end_line": 1
+          "end_line": 16
         },
         {
           "id": "ref-9",
@@ -1738,6 +1892,20 @@
           "path": "starter-browser",
           "start_line": 1,
           "end_line": 1
+        },
+        {
+          "id": "ref-10",
+          "role": "source",
+          "path": "starter/app.js",
+          "start_line": 1,
+          "end_line": 16
+        },
+        {
+          "id": "ref-11",
+          "role": "source",
+          "path": "starter/test-unit.cjs",
+          "start_line": 1,
+          "end_line": 11
         }
       ],
       "high_risk": true
@@ -1771,7 +1939,7 @@
           "id": "ref-3",
           "role": "source",
           "path": "starter/app.js",
-          "start_line": 56,
+          "start_line": 1,
           "end_line": 104
         },
         {
@@ -1800,7 +1968,7 @@
           "role": "observation",
           "path": "starter-unit",
           "start_line": 1,
-          "end_line": 1
+          "end_line": 16
         },
         {
           "id": "ref-8",
@@ -1808,6 +1976,20 @@
           "path": "starter-browser",
           "start_line": 1,
           "end_line": 1
+        },
+        {
+          "id": "ref-9",
+          "role": "source",
+          "path": "starter/test-browser.mjs",
+          "start_line": 1,
+          "end_line": 31
+        },
+        {
+          "id": "ref-10",
+          "role": "source",
+          "path": "starter/test-browser.mjs",
+          "start_line": 42,
+          "end_line": 65
         }
       ],
       "high_risk": true
@@ -1870,7 +2052,7 @@
           "role": "observation",
           "path": "starter-unit",
           "start_line": 1,
-          "end_line": 1
+          "end_line": 16
         },
         {
           "id": "ref-8",
@@ -1880,7 +2062,7 @@
           "end_line": 1
         },
         {
-          "id": "privacy-refresh",
+          "id": "ref-9",
           "role": "source",
           "path": "starter/test-browser.mjs",
           "start_line": 90,
@@ -1932,32 +2114,39 @@
           "id": "ref-5",
           "role": "source",
           "path": "starter/test-browser.mjs",
-          "start_line": 66,
-          "end_line": 89
+          "start_line": 1,
+          "end_line": 31
         },
         {
           "id": "ref-6",
+          "role": "source",
+          "path": "starter/test-browser.mjs",
+          "start_line": 42,
+          "end_line": 89
+        },
+        {
+          "id": "ref-7",
           "role": "assertion",
           "path": "evals/unit/test-starter.sh",
           "start_line": 1,
           "end_line": 5
         },
         {
-          "id": "ref-7",
+          "id": "ref-8",
           "role": "assertion",
           "path": "evals/unit/test-starter-browser.sh",
           "start_line": 1,
           "end_line": 4
         },
         {
-          "id": "ref-8",
+          "id": "ref-9",
           "role": "observation",
           "path": "starter-unit",
           "start_line": 1,
-          "end_line": 1
+          "end_line": 16
         },
         {
-          "id": "ref-9",
+          "id": "ref-10",
           "role": "observation",
           "path": "starter-browser",
           "start_line": 1,
@@ -2038,7 +2227,7 @@
           "role": "observation",
           "path": "starter-unit",
           "start_line": 1,
-          "end_line": 1
+          "end_line": 16
         },
         {
           "id": "ref-10",
@@ -2048,25 +2237,39 @@
           "end_line": 1
         },
         {
-          "id": "context-11",
+          "id": "ref-11",
           "role": "requirement",
           "path": "docs/1/behavior-scenarios.json",
           "start_line": 171,
           "end_line": 201
         },
         {
-          "id": "context-12",
+          "id": "ref-12",
           "role": "requirement",
           "path": "docs/1/behavior-scenarios.json",
           "start_line": 1,
           "end_line": 26
         },
         {
-          "id": "context-13",
+          "id": "ref-13",
           "role": "source",
           "path": "README.md",
           "start_line": 1,
           "end_line": 72
+        },
+        {
+          "id": "ref-14",
+          "role": "source",
+          "path": "starter/test-unit.cjs",
+          "start_line": 1,
+          "end_line": 11
+        },
+        {
+          "id": "ref-15",
+          "role": "source",
+          "path": "starter/test-browser.mjs",
+          "start_line": 1,
+          "end_line": 19
         }
       ],
       "high_risk": true
@@ -2107,8 +2310,8 @@
           "id": "ref-4",
           "role": "source",
           "path": "starter/build.py",
-          "start_line": 10,
-          "end_line": 19
+          "start_line": 1,
+          "end_line": 36
         },
         {
           "id": "ref-5",
@@ -2136,7 +2339,7 @@
           "role": "observation",
           "path": "starter-unit",
           "start_line": 1,
-          "end_line": 1
+          "end_line": 16
         },
         {
           "id": "ref-9",
@@ -2144,6 +2347,13 @@
           "path": "starter-browser",
           "start_line": 1,
           "end_line": 1
+        },
+        {
+          "id": "ref-10",
+          "role": "source",
+          "path": "starter/test-unit.cjs",
+          "start_line": 1,
+          "end_line": 11
         }
       ],
       "high_risk": true
@@ -2184,8 +2394,8 @@
           "id": "ref-4",
           "role": "source",
           "path": "starter/build.py",
-          "start_line": 10,
-          "end_line": 19
+          "start_line": 1,
+          "end_line": 36
         },
         {
           "id": "ref-5",
@@ -2213,7 +2423,7 @@
           "role": "observation",
           "path": "starter-unit",
           "start_line": 1,
-          "end_line": 1
+          "end_line": 16
         },
         {
           "id": "ref-9",
@@ -2221,6 +2431,13 @@
           "path": "starter-browser",
           "start_line": 1,
           "end_line": 1
+        },
+        {
+          "id": "ref-10",
+          "role": "source",
+          "path": "starter/test-unit.cjs",
+          "start_line": 1,
+          "end_line": 11
         }
       ],
       "high_risk": true
@@ -2261,8 +2478,8 @@
           "id": "ref-4",
           "role": "source",
           "path": "starter/build.py",
-          "start_line": 10,
-          "end_line": 19
+          "start_line": 1,
+          "end_line": 36
         },
         {
           "id": "ref-5",
@@ -2290,7 +2507,7 @@
           "role": "observation",
           "path": "starter-unit",
           "start_line": 1,
-          "end_line": 1
+          "end_line": 16
         },
         {
           "id": "ref-9",
@@ -2298,6 +2515,13 @@
           "path": "starter-browser",
           "start_line": 1,
           "end_line": 1
+        },
+        {
+          "id": "ref-10",
+          "role": "source",
+          "path": "starter/test-unit.cjs",
+          "start_line": 1,
+          "end_line": 11
         }
       ],
       "high_risk": true
@@ -2338,8 +2562,8 @@
           "id": "ref-4",
           "role": "source",
           "path": "starter/build.py",
-          "start_line": 10,
-          "end_line": 19
+          "start_line": 1,
+          "end_line": 36
         },
         {
           "id": "ref-5",
@@ -2367,7 +2591,7 @@
           "role": "observation",
           "path": "starter-unit",
           "start_line": 1,
-          "end_line": 1
+          "end_line": 16
         },
         {
           "id": "ref-9",
@@ -2375,6 +2599,13 @@
           "path": "starter-browser",
           "start_line": 1,
           "end_line": 1
+        },
+        {
+          "id": "ref-10",
+          "role": "source",
+          "path": "starter/test-unit.cjs",
+          "start_line": 1,
+          "end_line": 11
         }
       ],
       "high_risk": true
@@ -2439,7 +2670,7 @@
           "role": "observation",
           "path": "starter-unit",
           "start_line": 1,
-          "end_line": 1
+          "end_line": 16
         },
         {
           "id": "ref-8",
