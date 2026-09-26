@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="referrer" content="no-referrer">
+  <title>Start my coaching session · Jobs Night</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="instructions.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <main>
+    <header>
+      <p class="eyebrow">Jobs Night · Resume alignment coach</p>
+      <h1>Start my coaching session</h1>
+      <p class="intro">Bring your experience and the opportunity. Prepare one message to start a focused coaching conversation.</p>
+    </header>
+    <section class="card" aria-labelledby="prepare-heading">
+      <h2 id="prepare-heading">Prepare your first message</h2>
+      <ol class="steps">
+        <li>Fill in both fields.</li>
+        <li>Copy your coaching prompt.</li>
+        <li>Paste it into a new AI conversation.</li>
+      </ol>
+      <p class="hint">The complete <a href="../coach/START-HERE.md">coach instructions</a> are included automatically. Both fields are required.</p>
+      <form id="coaching-form" novalidate autocomplete="off">
+        <div class="fields">
+          <div class="field">
+            <label for="resume">Resume</label>
+            <p id="resume-hint" class="hint">Paste your resume as text, including the details you want the coach to use.</p>
+            <textarea id="resume" name="resume" rows="13" required spellcheck="false" autocomplete="off" aria-describedby="resume-hint resume-error"></textarea>
+            <p id="resume-error" class="error" hidden></p>
+          </div>
+          <div class="field">
+            <label for="job-posting">Job posting</label>
+            <p id="job-hint" class="hint">Paste the full posting so the coach can compare its requirements with your experience.</p>
+            <textarea id="job-posting" name="job-posting" rows="13" required spellcheck="false" autocomplete="off" aria-describedby="job-hint job-error"></textarea>
+            <p id="job-error" class="error" hidden></p>
+          </div>
+        </div>
+        <button id="copy-prompt" type="submit">Copy coaching prompt</button>
+        <p id="copy-status" class="status" role="status" aria-live="polite" aria-atomic="true"></p>
+      </form>
+      <section id="manual-copy" class="manual" aria-labelledby="manual-heading" hidden>
+        <h2 id="manual-heading">Copy your prompt manually</h2>
+        <p id="manual-instructions">Select the full prompt below, then press Ctrl+C (Windows/Linux) or Command+C (Mac). Paste it into a new AI conversation.</p>
+        <label for="prepared-prompt">Complete coaching prompt</label>
+        <textarea id="prepared-prompt" rows="10" readonly spellcheck="false" aria-describedby="manual-instructions"></textarea>
+        <button id="select-prompt" class="secondary" type="button">Select complete prompt</button>
+      </section>
+      <noscript><p class="error">Enable JavaScript to prepare a prompt, or open the coach instructions and copy them with your resume and job posting yourself.</p></noscript>
+    </section>
+    <aside class="privacy" aria-label="Privacy">
+      <strong>Your text stays here until you copy it.</strong>
+      <p>This page keeps entries only in page memory. It does not save or send them. A fresh load starts empty. Copying places text on your clipboard; pasting into an AI conversation shares it with that service. This page does not erase clipboard contents, browser history, or AI conversations.</p>
+    </aside>
+  </main>
+</body>
+</html>

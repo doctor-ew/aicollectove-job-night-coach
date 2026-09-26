@@ -1,0 +1,7 @@
+[
+  {
+    "test": "test-starter.sh",
+    "exit_code": 0,
+    "scope": "Independent observed build/unit checks only; recovery reruns these and does not adopt previous reported exits."
+  }
+]
