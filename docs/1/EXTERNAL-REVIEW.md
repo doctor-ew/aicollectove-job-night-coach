@@ -82,3 +82,7 @@ The revised mapping removes unrelated unit-check observations and their wrapper 
 Preliminary measurements using retained verified observations and the not-yet-published renderer show 41 gate evaluations, 31 unique packets and 10 potential reuses. The maximum complete argument content is 24,381 bytes, leaving 195 bytes under the 24,576-byte bound. These are three CLI argument payload lengths, not token usage or complete network transport. The final frozen runtime and fresh observations must be remeasured before any authorization; no authority or live certification is granted by this supplement. The 31-call and 600-second proposal limits are unchanged.
 
 The revised recovery-plan file SHA-256 is `ab189c8000cf13c9f4e0e709ce59b685288e048c23b4b4448fc5bfef1fa24231`.
+
+## Assertion mapping correction
+
+The recovery plan now labels the test modules as assertion evidence and their shell launchers as source context. The retained-finding packet includes the canonical-assembly assertions and their setup. Application source, tests, existing failed receipts and budgets are unchanged. This plan correction is not a new semantic verdict or live authorization. Controller support is reviewed separately; fresh bound verification is required.
