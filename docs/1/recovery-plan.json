@@ -228,25 +228,11 @@
           "end_line": 126
         },
         {
-          "id": "ref-5",
-          "role": "assertion",
-          "path": "evals/unit/test-starter.sh",
-          "start_line": 1,
-          "end_line": 5
-        },
-        {
           "id": "ref-6",
           "role": "assertion",
           "path": "evals/unit/test-starter-browser.sh",
           "start_line": 1,
           "end_line": 4
-        },
-        {
-          "id": "ref-7",
-          "role": "observation",
-          "path": "starter-unit",
-          "start_line": 1,
-          "end_line": 16
         },
         {
           "id": "ref-8",
@@ -403,25 +389,11 @@
           "end_line": 89
         },
         {
-          "id": "ref-7",
-          "role": "assertion",
-          "path": "evals/unit/test-starter.sh",
-          "start_line": 1,
-          "end_line": 5
-        },
-        {
           "id": "ref-8",
           "role": "assertion",
           "path": "evals/unit/test-starter-browser.sh",
           "start_line": 1,
           "end_line": 4
-        },
-        {
-          "id": "ref-9",
-          "role": "observation",
-          "path": "starter-unit",
-          "start_line": 1,
-          "end_line": 16
         },
         {
           "id": "ref-10",
@@ -527,13 +499,6 @@
           "path": "docs/1/behavior-scenarios.json",
           "start_line": 1,
           "end_line": 26
-        },
-        {
-          "id": "ref-13",
-          "role": "source",
-          "path": "README.md",
-          "start_line": 1,
-          "end_line": 72
         },
         {
           "id": "ref-14",
@@ -884,6 +849,13 @@
           "path": "starter/test-unit.cjs",
           "start_line": 1,
           "end_line": 11
+        },
+        {
+          "id": "readme-context",
+          "role": "source",
+          "path": "README.md",
+          "start_line": 1,
+          "end_line": 72
         }
       ],
       "high_risk": true
@@ -1089,25 +1061,11 @@
           "end_line": 126
         },
         {
-          "id": "ref-5",
-          "role": "assertion",
-          "path": "evals/unit/test-starter.sh",
-          "start_line": 1,
-          "end_line": 5
-        },
-        {
           "id": "ref-6",
           "role": "assertion",
           "path": "evals/unit/test-starter-browser.sh",
           "start_line": 1,
           "end_line": 4
-        },
-        {
-          "id": "ref-7",
-          "role": "observation",
-          "path": "starter-unit",
-          "start_line": 1,
-          "end_line": 16
         },
         {
           "id": "ref-8",
@@ -1264,25 +1222,11 @@
           "end_line": 89
         },
         {
-          "id": "ref-7",
-          "role": "assertion",
-          "path": "evals/unit/test-starter.sh",
-          "start_line": 1,
-          "end_line": 5
-        },
-        {
           "id": "ref-8",
           "role": "assertion",
           "path": "evals/unit/test-starter-browser.sh",
           "start_line": 1,
           "end_line": 4
-        },
-        {
-          "id": "ref-9",
-          "role": "observation",
-          "path": "starter-unit",
-          "start_line": 1,
-          "end_line": 16
         },
         {
           "id": "ref-10",
@@ -1388,13 +1332,6 @@
           "path": "docs/1/behavior-scenarios.json",
           "start_line": 1,
           "end_line": 26
-        },
-        {
-          "id": "ref-13",
-          "role": "source",
-          "path": "README.md",
-          "start_line": 1,
-          "end_line": 72
         },
         {
           "id": "ref-14",
@@ -1745,6 +1682,13 @@
           "path": "starter/test-unit.cjs",
           "start_line": 1,
           "end_line": 11
+        },
+        {
+          "id": "readme-context",
+          "role": "source",
+          "path": "README.md",
+          "start_line": 1,
+          "end_line": 72
         }
       ],
       "high_risk": true
@@ -1950,25 +1894,11 @@
           "end_line": 126
         },
         {
-          "id": "ref-5",
-          "role": "assertion",
-          "path": "evals/unit/test-starter.sh",
-          "start_line": 1,
-          "end_line": 5
-        },
-        {
           "id": "ref-6",
           "role": "assertion",
           "path": "evals/unit/test-starter-browser.sh",
           "start_line": 1,
           "end_line": 4
-        },
-        {
-          "id": "ref-7",
-          "role": "observation",
-          "path": "starter-unit",
-          "start_line": 1,
-          "end_line": 16
         },
         {
           "id": "ref-8",
@@ -2125,25 +2055,11 @@
           "end_line": 89
         },
         {
-          "id": "ref-7",
-          "role": "assertion",
-          "path": "evals/unit/test-starter.sh",
-          "start_line": 1,
-          "end_line": 5
-        },
-        {
           "id": "ref-8",
           "role": "assertion",
           "path": "evals/unit/test-starter-browser.sh",
           "start_line": 1,
           "end_line": 4
-        },
-        {
-          "id": "ref-9",
-          "role": "observation",
-          "path": "starter-unit",
-          "start_line": 1,
-          "end_line": 16
         },
         {
           "id": "ref-10",
@@ -2249,13 +2165,6 @@
           "path": "docs/1/behavior-scenarios.json",
           "start_line": 1,
           "end_line": 26
-        },
-        {
-          "id": "ref-13",
-          "role": "source",
-          "path": "README.md",
-          "start_line": 1,
-          "end_line": 72
         },
         {
           "id": "ref-14",
@@ -2606,6 +2515,13 @@
           "path": "starter/test-unit.cjs",
           "start_line": 1,
           "end_line": 11
+        },
+        {
+          "id": "readme-context",
+          "role": "source",
+          "path": "README.md",
+          "start_line": 1,
+          "end_line": 72
         }
       ],
       "high_risk": true
