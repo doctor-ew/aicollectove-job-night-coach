@@ -4,14 +4,29 @@ A conversational AI coach that compares your resume with a job posting, highligh
 
 ## How to use it
 
-1. Open **[START-HERE.md](coach/START-HERE.md)** and copy the entire file. On GitHub, use the **Raw** view to copy the text.
-2. Paste it into a new conversation in your AI chat tool.
-3. Paste your resume and the full job posting into the same conversation.
-4. Review the comparison and answer the coach's questions, one at a time. Short answers are fine; you can also say “skip” or “I don't know.”
-5. Accept, revise, or skip the suggested edits.
-6. When you're ready, ask: **“Assemble my updated resume.”** Copy the draft into your resume document and review it before sending.
+**Nothing to install. No GitHub account, coding, or command-line tools needed.**
 
-No installation or coding required—just the prompt, your resume, a job posting, and an AI conversation.
+### 1. Start a new AI conversation
+
+Copy and paste this entire message into your AI chat:
+
+> Please open the link below and use its instructions to coach me through aligning my resume with a job posting. If you cannot read the link, ask me to paste the instructions instead. Once you have read them, ask me for my resume and the job posting.
+>
+> https://raw.githubusercontent.com/doctor-ew/aicollectove-job-night-coach/main/coach/START-HERE.md
+
+**If your AI cannot open the link:** [open the coach instructions in your browser](https://raw.githubusercontent.com/doctor-ew/aicollectove-job-night-coach/main/coach/START-HERE.md), select all the text, copy it, and paste it into the conversation. Use **Ctrl+A**, then **Ctrl+C** on Windows, or **Command+A**, then **Command+C** on a Mac. Return to your AI chat and paste with **Ctrl+V** or **Command+V**.
+
+### 2. Add your resume and job posting
+
+Paste your resume and the full job posting into the same conversation.
+
+### 3. Work through the suggestions
+
+Review the comparison and answer the coach's questions, one at a time. Short answers are fine; you can also say “skip” or “I don't know.” Accept, revise, or skip the suggested edits.
+
+### 4. Get your updated resume
+
+When you're ready, ask: **“Assemble my updated resume.”** Copy the draft into your resume document and review it before sending.
 
 ## What you get
 
