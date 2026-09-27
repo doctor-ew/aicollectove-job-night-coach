@@ -31,8 +31,8 @@
     }
   ],
   "limits": {
-    "wall_seconds": 3300,
-    "active_seconds": 3300,
+    "wall_seconds": 1873,
+    "active_seconds": 1873,
     "provider_calls": 38
   },
   "decisions": [
