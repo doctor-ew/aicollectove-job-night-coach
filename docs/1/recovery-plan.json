@@ -22,9 +22,9 @@
     "PLAYWRIGHT_BROWSERS_PATH": "/Users/drew.schillinger/Library/Caches/ms-playwright"
   },
   "limits": {
-    "wall_seconds": 600,
-    "active_seconds": 600,
-    "provider_calls": 31
+    "wall_seconds": 1800,
+    "active_seconds": 1800,
+    "provider_calls": 40
   },
   "decisions": [
     {
