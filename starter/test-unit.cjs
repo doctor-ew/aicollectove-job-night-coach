@@ -10,6 +10,7 @@ const { buildPrompt } = require('./app.js');
 const root = path.resolve(__dirname, '..');
 const canonical = fs.readFileSync(path.join(root, 'coach/START-HERE.md'), 'utf8');
 
+// Cases: CASE-1
 test('missing or whitespace-only inputs identify each field and produce no prompt', () => {
   for (const blank of ['', '  ', '\t\r\n', '\u2003']) {
     assert.deepEqual(Object.keys(buildPrompt(canonical, blank, blank).errors), ['resume', 'job']);
@@ -19,6 +20,7 @@ test('missing or whitespace-only inputs identify each field and produce no promp
   }
 });
 
+// Cases: CASE-2, CASE-6
 test('complete canonical instructions occur once and valid input bytes are preserved', () => {
   const resume = '  Fictional Applicant\r\n\tBuilt demonstration tools.\n ';
   const job = '\n Fictional role\r\nRequirements: curious learner.  ';
@@ -28,6 +30,7 @@ test('complete canonical instructions occur once and valid input bytes are prese
   assert.equal(result.prompt.split(canonical).length - 1, 1);
 });
 
+// Cases: CASE-2, CASE-6
 test('HTML-like content and Unicode remain literal prompt text', () => {
   const resume = '<script>throw new Error("fictional")</script>\nRésumé 🧪 & <b>example</b>';
   const job = '</textarea><img src=x onerror=alert(1)>\n"Research"';
@@ -35,6 +38,7 @@ test('HTML-like content and Unicode remain literal prompt text', () => {
   assert.equal(result.prompt, 'Instructions\n\n## Resume\n\n' + resume + '\n\n## Job posting\n\n' + job);
 });
 
+// Cases: CASE-2, CASE-6
 test('large fictional inputs are not silently truncated', () => {
   const resume = 'Fictional experience\n'.repeat(12000);
   const job = 'Fictional requirement\n'.repeat(12000);
@@ -43,11 +47,13 @@ test('large fictional inputs are not silently truncated', () => {
   assert.equal(result.prompt.length, canonical.length + '\n\n## Resume\n\n'.length + resume.length + '\n\n## Job posting\n\n'.length + job.length);
 });
 
+// Cases: CASE-6
 test('non-string inputs are rejected instead of implicitly coercing content', () => {
   assert.throws(() => buildPrompt(canonical, null, 'Job'), TypeError);
   assert.throws(() => buildPrompt(canonical, 'Resume', 123), TypeError);
 });
 
+// Cases: CASE-6
 test('checked-in generated instructions exactly match the sole canonical source', () => {
   const context = {};
   vm.runInNewContext(fs.readFileSync(path.join(__dirname, 'instructions.js'), 'utf8'), context);
@@ -56,6 +62,7 @@ test('checked-in generated instructions exactly match the sole canonical source'
   assert.equal(check.status, 0, check.stderr);
 });
 
+// Cases: CASE-6
 test('build detects stale and absent embeds, then reproduces changed canonical text exactly', () => {
   const temp = fs.mkdtempSync(path.join(os.tmpdir(), 'coaching-starter-build-'));
   try {

@@ -52,6 +52,7 @@ async function scenario(mode,run){
     assert.equal(await page.locator('#resume').inputValue(),'');
     assert.equal(await page.locator('#job-posting').inputValue(),'');
     await run(page);
+    // Cases: CASE-4
     const observed=await page.evaluate(()=>({storage:__acceptance.storage,network:__acceptance.network}));
     assert.deepEqual(observed,{storage:[],network:[]});
     assert.deepEqual(network,[]);assert.deepEqual(consoleMessages,[]);assert.deepEqual(errors,[]);
@@ -61,6 +62,7 @@ const fill=async(page,resume=sampleResume,job=sampleJob)=>{await page.getByLabel
 const submit=page=>page.getByRole('button',{name:'Copy coaching prompt',exact:true}).click();
 try{
   await scenario('success',async page=>{
+    // Cases: CASE-1, CASE-5
     await submit(page);
     assert.equal(await page.locator('#resume-error').innerText(),'Add your resume before copying.');
     assert.equal(await page.locator('#job-error').innerText(),'Add the job posting before copying.');
@@ -72,6 +74,7 @@ try{
     assert.equal(await page.evaluate(()=>document.activeElement.id),'job-posting');
     assert.equal(await page.evaluate(()=>__acceptance.copies.length),0);
     checks.push('Empty and whitespace-only fields reject without clipboard writes; focus and field errors are accessible.');
+    // Cases: CASE-2, CASE-3, CASE-5, CASE-6
     await fill(page);
     await page.locator('#resume').focus();await page.keyboard.press('Tab');
     assert.equal(await page.evaluate(()=>document.activeElement.id),'job-posting');
@@ -83,16 +86,19 @@ try{
     assert.equal(await page.locator('#manual-copy').isVisible(),false);
     checks.push('Keyboard copy succeeds with exact canonical instructions once and both untouched input values.');
     await page.screenshot({path:resolve(artifacts,'starter-desktop.png'),fullPage:true});
+    // Cases: CASE-5
     await page.setViewportSize({width:390,height:844});
     assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),true);
     await page.screenshot({path:resolve(artifacts,'starter-mobile.png'),fullPage:true});
     checks.push('390px mobile layout has no horizontal overflow.');
+    // Cases: CASE-4
     await page.reload();assert.equal(await page.locator('#resume').inputValue(),'');assert.equal(await page.locator('#job-posting').inputValue(),'');
     assert.equal(await page.locator('#copy-status').innerText(),'');assert.equal(await page.locator('#manual-copy').isVisible(),false);
     checks.push('Refresh begins with empty inputs, feedback and prepared prompt.');
     await page.setViewportSize({width:1280,height:980});
     await page.screenshot({path:resolve(artifacts,'starter-empty.png'),fullPage:true});
   });
+  // Cases: CASE-2, CASE-3, CASE-5, CASE-6
   for(const mode of ['rejected','unavailable'])await scenario(mode,async page=>{
     const resume='<img src="https://example.invalid/fictional" onerror="globalThis.__injected=1">\nAvery Example';
     const job='</textarea><script>globalThis.__injected=2</script>\nFictional role';
@@ -111,6 +117,7 @@ try{
     await page.locator('#resume').fill('Edited fictional text');assert.equal(await page.locator('#manual-copy').isVisible(),false);assert.equal(await page.locator('#prepared-prompt').inputValue(),'');
     checks.push(mode+' clipboard exposes the exact read-only selectable prompt, treats HTML as text and clears stale fallback on edit.');
   });
+  // Cases: CASE-3, CASE-6
   await scenario('pending',async page=>{
     await fill(page);await submit(page);assert.equal(await page.locator('#copy-prompt').isDisabled(),true);
     await page.locator('#resume').fill('Edited fictional resume');await page.evaluate(()=>__finishCopy());
