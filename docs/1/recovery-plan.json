@@ -441,8 +441,8 @@
           "id": "ref-4",
           "role": "assertion",
           "path": "starter/test-browser.mjs",
-          "start_line": 121,
-          "end_line": 126
+          "start_line": 96,
+          "end_line": 121
         },
         {
           "id": "ref-5",
@@ -1274,8 +1274,8 @@
           "id": "ref-4",
           "role": "assertion",
           "path": "starter/test-browser.mjs",
-          "start_line": 121,
-          "end_line": 126
+          "start_line": 96,
+          "end_line": 121
         },
         {
           "id": "ref-5",
@@ -2107,8 +2107,8 @@
           "id": "ref-4",
           "role": "assertion",
           "path": "starter/test-browser.mjs",
-          "start_line": 121,
-          "end_line": 126
+          "start_line": 96,
+          "end_line": 121
         },
         {
           "id": "ref-5",
@@ -2394,8 +2394,8 @@
           "id": "ref-5",
           "role": "assertion",
           "path": "starter/test-unit.cjs",
-          "start_line": 51,
-          "end_line": 58
+          "start_line": 22,
+          "end_line": 36
         },
         {
           "id": "ref-6",
@@ -2431,6 +2431,13 @@
           "path": "starter/test-unit.cjs",
           "start_line": 1,
           "end_line": 11
+        },
+        {
+          "id": "ref-11",
+          "role": "assertion",
+          "path": "starter/test-browser.mjs",
+          "start_line": 75,
+          "end_line": 84
         }
       ],
       "high_risk": true
