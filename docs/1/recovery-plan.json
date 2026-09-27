@@ -22,9 +22,9 @@
     "PLAYWRIGHT_BROWSERS_PATH": "/Users/drew.schillinger/Library/Caches/ms-playwright"
   },
   "limits": {
-    "wall_seconds": 1800,
-    "active_seconds": 1800,
-    "provider_calls": 40
+    "wall_seconds": 900,
+    "active_seconds": 900,
+    "provider_calls": 20
   },
   "decisions": [
     {
@@ -597,6 +597,13 @@
           "path": "starter/test-unit.cjs",
           "start_line": 1,
           "end_line": 11
+        },
+        {
+          "id": "ref-11",
+          "role": "assertion",
+          "path": "starter/test-unit.cjs",
+          "start_line": 22,
+          "end_line": 36
         }
       ],
       "high_risk": true
@@ -681,6 +688,13 @@
           "path": "starter/test-unit.cjs",
           "start_line": 1,
           "end_line": 11
+        },
+        {
+          "id": "ref-11",
+          "role": "assertion",
+          "path": "starter/test-unit.cjs",
+          "start_line": 22,
+          "end_line": 36
         }
       ],
       "high_risk": true
@@ -856,6 +870,13 @@
           "path": "README.md",
           "start_line": 1,
           "end_line": 72
+        },
+        {
+          "id": "ref-11",
+          "role": "assertion",
+          "path": "starter/test-unit.cjs",
+          "start_line": 22,
+          "end_line": 36
         }
       ],
       "high_risk": true
@@ -1430,6 +1451,13 @@
           "path": "starter/test-unit.cjs",
           "start_line": 1,
           "end_line": 11
+        },
+        {
+          "id": "ref-11",
+          "role": "assertion",
+          "path": "starter/test-unit.cjs",
+          "start_line": 22,
+          "end_line": 36
         }
       ],
       "high_risk": true
@@ -1514,6 +1542,13 @@
           "path": "starter/test-unit.cjs",
           "start_line": 1,
           "end_line": 11
+        },
+        {
+          "id": "ref-11",
+          "role": "assertion",
+          "path": "starter/test-unit.cjs",
+          "start_line": 22,
+          "end_line": 36
         }
       ],
       "high_risk": true
@@ -1689,6 +1724,13 @@
           "path": "README.md",
           "start_line": 1,
           "end_line": 72
+        },
+        {
+          "id": "ref-11",
+          "role": "assertion",
+          "path": "starter/test-unit.cjs",
+          "start_line": 22,
+          "end_line": 36
         }
       ],
       "high_risk": true
@@ -2263,6 +2305,13 @@
           "path": "starter/test-unit.cjs",
           "start_line": 1,
           "end_line": 11
+        },
+        {
+          "id": "ref-11",
+          "role": "assertion",
+          "path": "starter/test-unit.cjs",
+          "start_line": 22,
+          "end_line": 36
         }
       ],
       "high_risk": true
@@ -2347,6 +2396,13 @@
           "path": "starter/test-unit.cjs",
           "start_line": 1,
           "end_line": 11
+        },
+        {
+          "id": "ref-11",
+          "role": "assertion",
+          "path": "starter/test-unit.cjs",
+          "start_line": 22,
+          "end_line": 36
         }
       ],
       "high_risk": true
@@ -2529,6 +2585,13 @@
           "path": "README.md",
           "start_line": 1,
           "end_line": 72
+        },
+        {
+          "id": "ref-11",
+          "role": "assertion",
+          "path": "starter/test-unit.cjs",
+          "start_line": 22,
+          "end_line": 36
         }
       ],
       "high_risk": true
