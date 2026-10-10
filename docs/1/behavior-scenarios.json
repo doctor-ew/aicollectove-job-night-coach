@@ -1,0 +1,201 @@
+{
+  "version": 1,
+  "task": "1",
+  "author": {
+    "provider": "codex",
+    "author_id": "/root"
+  },
+  "applicability": {
+    "kind": "deterministic",
+    "rationale": "Local deterministic page behavior is checked by unit and browser assertions.",
+    "risks": [
+      "deterministic_logic"
+    ],
+    "review": null
+  },
+  "ac_ids": [
+    "AC-1",
+    "AC-2",
+    "AC-3",
+    "AC-4",
+    "AC-5",
+    "AC-6",
+    "AC-7"
+  ],
+  "cases": [
+    {
+      "id": "CASE-1",
+      "ac_ids": [
+        "AC-1"
+      ],
+      "applicability": {
+        "kind": "deterministic",
+        "rationale": "Local deterministic page behavior is checked by unit and browser assertions.",
+        "risks": [
+          "deterministic_logic"
+        ],
+        "review": null
+      },
+      "required": true,
+      "given": "The page is loaded with one or both required fields blank or whitespace only.",
+      "when": "The user requests a coaching prompt.",
+      "then": "A missing-field error is visible, the first missing field receives focus, and no clipboard write occurs.",
+      "forbidden": "Do not interpret source text as HTML, persist or transmit input, or claim a failed clipboard write succeeded.",
+      "input": null,
+      "expected": [],
+      "prohibited": [],
+      "counterexamples": [],
+      "visibility": "public"
+    },
+    {
+      "id": "CASE-2",
+      "ac_ids": [
+        "AC-2"
+      ],
+      "applicability": {
+        "kind": "deterministic",
+        "rationale": "Local deterministic page behavior is checked by unit and browser assertions.",
+        "risks": [
+          "deterministic_logic"
+        ],
+        "review": null
+      },
+      "required": true,
+      "given": "Both fields contain fictional text including whitespace, newlines and HTML-like characters.",
+      "when": "The user requests a coaching prompt.",
+      "then": "The complete canonical text occurs once and exact inputs appear under distinct headings without executing content.",
+      "forbidden": "Do not interpret source text as HTML, persist or transmit input, or claim a failed clipboard write succeeded.",
+      "input": null,
+      "expected": [],
+      "prohibited": [],
+      "counterexamples": [],
+      "visibility": "public"
+    },
+    {
+      "id": "CASE-3",
+      "ac_ids": [
+        "AC-3"
+      ],
+      "applicability": {
+        "kind": "deterministic",
+        "rationale": "Local deterministic page behavior is checked by unit and browser assertions.",
+        "risks": [
+          "deterministic_logic"
+        ],
+        "review": null
+      },
+      "required": true,
+      "given": "Both fields are valid and clipboard success, rejection and absence are exercised independently.",
+      "when": "The user requests a coaching prompt.",
+      "then": "Success is announced only after a successful write; denial or absence exposes the same full selectable read-only prompt.",
+      "forbidden": "Do not interpret source text as HTML, persist or transmit input, or claim a failed clipboard write succeeded.",
+      "input": null,
+      "expected": [],
+      "prohibited": [],
+      "counterexamples": [],
+      "visibility": "public"
+    },
+    {
+      "id": "CASE-4",
+      "ac_ids": [
+        "AC-4"
+      ],
+      "applicability": {
+        "kind": "deterministic",
+        "rationale": "Local deterministic page behavior is checked by unit and browser assertions.",
+        "risks": [
+          "deterministic_logic"
+        ],
+        "review": null
+      },
+      "required": true,
+      "given": "Fictional content is entered while network, storage and browser console activity are observed.",
+      "when": "The user copies and then reloads the page.",
+      "then": "No content is persisted, transmitted or logged; a fresh page starts with empty inputs.",
+      "forbidden": "Do not interpret source text as HTML, persist or transmit input, or claim a failed clipboard write succeeded.",
+      "input": null,
+      "expected": [],
+      "prohibited": [],
+      "counterexamples": [],
+      "visibility": "public"
+    },
+    {
+      "id": "CASE-5",
+      "ac_ids": [
+        "AC-5"
+      ],
+      "applicability": {
+        "kind": "deterministic",
+        "rationale": "Local deterministic page behavior is checked by unit and browser assertions.",
+        "risks": [
+          "deterministic_logic"
+        ],
+        "review": null
+      },
+      "required": true,
+      "given": "The page is opened at desktop and narrow mobile sizes.",
+      "when": "The user navigates by keyboard and triggers validation and manual copy.",
+      "then": "Labels and focus are visible, controls work, and no horizontal overflow occurs.",
+      "forbidden": "Do not interpret source text as HTML, persist or transmit input, or claim a failed clipboard write succeeded.",
+      "input": null,
+      "expected": [],
+      "prohibited": [],
+      "counterexamples": [],
+      "visibility": "public"
+    },
+    {
+      "id": "CASE-6",
+      "ac_ids": [
+        "AC-6"
+      ],
+      "applicability": {
+        "kind": "deterministic",
+        "rationale": "Local deterministic page behavior is checked by unit and browser assertions.",
+        "risks": [
+          "deterministic_logic"
+        ],
+        "review": null
+      },
+      "required": true,
+      "given": "The checked-in generated instructions and fictional test suite are available.",
+      "when": "The generation consistency check, unit suite and actual browser fixture execute.",
+      "then": "Assertions verify exact assembly, text safety and clipboard behavior; stale generated instructions fail the check.",
+      "forbidden": "Do not interpret source text as HTML, persist or transmit input, or claim a failed clipboard write succeeded.",
+      "input": null,
+      "expected": [],
+      "prohibited": [],
+      "counterexamples": [],
+      "visibility": "public"
+    },
+    {
+      "id": "CASE-7",
+      "ac_ids": [
+        "AC-7"
+      ],
+      "applicability": {
+        "kind": "manual",
+        "rationale": "Independent review requires an accountable reviewer and cannot be inferred from test exit codes.",
+        "risks": [],
+        "review": null
+      },
+      "required": true,
+      "given": "The final implementation, specification and test assertions are available.",
+      "when": "An independent reviewer inspects the source and evidence.",
+      "then": "The reviewer approves implementation and assertion adequacy, and README provides local opening and generation instructions.",
+      "forbidden": "Do not interpret source text as HTML, persist or transmit input, or claim a failed clipboard write succeeded.",
+      "input": null,
+      "expected": [],
+      "prohibited": [],
+      "counterexamples": [],
+      "visibility": "public",
+      "manual_acceptance": {
+        "owner": "Independent implementation reviewer and ticket owner",
+        "authorization": "Issue 1 acceptance requires independent implementation and assertion review before acceptance.",
+        "procedure": "Inspect source and test assertions, record review findings, resolve blockers, and retain approval; controller adoption remains separate."
+      }
+    }
+  ],
+  "runtime": null,
+  "prototype_files": [],
+  "heldout": null
+}

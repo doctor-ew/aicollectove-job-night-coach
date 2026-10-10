@@ -28,6 +28,33 @@ Review the comparison and answer the coach's questions, one at a time. Short ans
 
 When you're ready, ask: **“Assemble my updated resume.”** Copy the draft into your resume document and review it before sending.
 
+## Local coaching-session starter
+
+[Start my coaching session](starter/index.html) combines the complete coach instructions with your resume and job posting into one prompt. Download or clone this repository, keep its folders together, then double-click `starter/index.html` to open it in your browser. No server, account, installation, or build step is needed to use the included page.
+
+Fill in both fields, select **Copy coaching prompt**, and paste into a new AI conversation. If your browser blocks copying from a local file, the page shows the complete selectable prompt for manual copying. Entries stay in page memory; a fresh load starts empty. Copying uses your clipboard, and pasting into an AI service shares the text with that service.
+
+### Maintaining the starter
+
+`coach/START-HERE.md` remains the sole source of coach instructions. After changing it, regenerate the checked-in embed and run the checks:
+
+```sh
+python3 starter/build.py
+python3 starter/build.py --check
+node --test starter/test-unit.cjs
+```
+
+The generator uses Python's standard library; unit tests use Node's built-in test runner. The freshness check fails if the embedded instructions differ from the canonical source.
+
+Browser acceptance requires an existing Playwright installation with Chromium. Set `PLAYWRIGHT_MODULE` to the absolute path of that installation's `index.mjs`, then run:
+
+```sh
+node starter/test-browser.mjs
+```
+
+The test opens the page directly from disk using fictional inputs and simulated clipboard outcomes. It checks keyboard use, validation, exact copied text, clipboard fallback, refresh, mobile layout, and absence of network or storage calls. Screenshots and the source-hash report are retained under `docs/1/direct-verification/browser-acceptance/`; `STARTER_BROWSER_ARTIFACTS` can select another output directory. It does not certify the operating system clipboard.
+
+
 ## What you get
 
 - **A job-by-job requirement comparison:** where your resume shows a match, where evidence is missing, and which gaps need clarification.

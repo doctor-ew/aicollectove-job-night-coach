@@ -1,0 +1,31 @@
+{
+  "status": "passed",
+  "synthetic": true,
+  "clipboard_outcomes": "simulated",
+  "elapsed_ms": 1352,
+  "source_sha256": {
+    "index.html": "df7763a7f577674a5cc3a7987cc444160e909894160d9e3415057a4e40239b52",
+    "styles.css": "509621d07cf1c54cad3d4a3d8f64601401b4e676cd187ba2719e9d654b03e0c7",
+    "app.js": "b624463281eebd6de926b57018ce21b8fd38dace32331b110bd74ab9cc631bb7",
+    "instructions.js": "7afe4d264aa5f749e50c54bfc90aba773092632b5d99dc6025beb209b47cfec8",
+    "build.py": "1864d7077cdcf65a21ac6d4d563b975344f74b63f6bb8359e227847dea075ad4",
+    "test-browser.mjs": "4bfec5c046581de7de5a8e1f5af66dde758526cc39caeb8a99c22c818a6d1171"
+  },
+  "protocol": "file:",
+  "browser": "153.0.8010.12",
+  "canonical_sha256": "8c0e422f985796a7b5b6656b9c4cfbd6e233212c0e6692624bb1e99ed9bc2341",
+  "canonical_bytes": 17366,
+  "provider_calls": 0,
+  "network_requests": 0,
+  "storage_calls": 0,
+  "logged_input_messages": 0,
+  "checks": [
+    "Empty and whitespace-only fields reject without clipboard writes; focus and field errors are accessible.",
+    "Keyboard copy succeeds with exact canonical instructions once and both untouched input values.",
+    "390px mobile layout has no horizontal overflow.",
+    "Refresh begins with empty inputs, feedback and prepared prompt.",
+    "rejected clipboard exposes the exact read-only selectable prompt, treats HTML as text and clears stale fallback on edit.",
+    "unavailable clipboard exposes the exact read-only selectable prompt, treats HTML as text and clears stale fallback on edit.",
+    "Edits during asynchronous copy never claim that the changed inputs were copied."
+  ]
+}
