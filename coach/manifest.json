@@ -1,9 +1,9 @@
 {
-  "version": "1.0.0",
+  "version": "1.1.0",
   "format": "portable Markdown prompt kit",
   "files": {
-    "PROMPT.md": "5e10ef9c69271a040aaddb224563511c9f10328885c38e0e0db44112335a6aba",
-    "START-HERE.md": "66d4273c16974728a2da59f164af2efffc97e0c3291aa779ba7d6712a796a35d",
+    "PROMPT.md": "25990f5f3a4e4be8ac85a621fde2ce11b7d43413c5fccad19112f744ac758072",
+    "START-HERE.md": "bbd9ad11ed3ea7f55a5d9d8b68cd719d899c454b3548bf90521095a26da84cdf",
     "WORDING-REFERENCE.md": "6f258a8902ec3a3ff141b83b8fd0192d2f2c288822d7a039f4986a608619086d",
     "QUICKSTART.md": "8e7a5718e723b5644a8d10eae99b079821800c4920462a6d12ef61f62d1ad120",
     "templates/WORKSHEET.md": "d61968bc162ed93f4590f7f93c24b9f63d176ceed3736d0de95287a1de0f7341",
