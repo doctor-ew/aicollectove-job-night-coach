@@ -1,10 +1,10 @@
 {
-  "version": "1.0.0",
+  "version": "1.1.0",
   "format": "portable Markdown prompt kit",
   "files": {
-    "PROMPT.md": "b3cbb42b09d74a694305da7f3fe93c3a6011207eed9507ff209b9453fc4ffb42",
-    "START-HERE.md": "8c0e422f985796a7b5b6656b9c4cfbd6e233212c0e6692624bb1e99ed9bc2341",
-    "WORDING-REFERENCE.md": "d1aaa137142a59ffc661789c64ea5f705ab44c57e1c69b33c2917e8df2e46b22",
+    "PROMPT.md": "25990f5f3a4e4be8ac85a621fde2ce11b7d43413c5fccad19112f744ac758072",
+    "START-HERE.md": "bbd9ad11ed3ea7f55a5d9d8b68cd719d899c454b3548bf90521095a26da84cdf",
+    "WORDING-REFERENCE.md": "6f258a8902ec3a3ff141b83b8fd0192d2f2c288822d7a039f4986a608619086d",
     "QUICKSTART.md": "8e7a5718e723b5644a8d10eae99b079821800c4920462a6d12ef61f62d1ad120",
     "templates/WORKSHEET.md": "d61968bc162ed93f4590f7f93c24b9f63d176ceed3736d0de95287a1de0f7341",
     "examples/WORKED-SESSION.md": "a74c219491e24c6057463c6dd0ce050c9d9c1c16c8334825338e567ebd8839ba",
